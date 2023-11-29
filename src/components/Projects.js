@@ -5,8 +5,9 @@ const Projects = () => {
     return(
       <>
       <div className='projects p-3 container-fluid text-white'>
-        <Header title='My Projects'/>
+
         <div className='row w-auto d-flex m-0 p-0 justify-content-center'>
+          <Header title="My Projects"/>
           <Project 
             title='3D Graphics Engine' 
             repo='PyOpenGL' 
@@ -32,7 +33,7 @@ const Projects = () => {
             text="Using SQLAlchemy and Socket.IO, this full-stack app supports a database of users (via Steam login) and real-time simulation gambling. This was my first endeavour into the world of ReactJS and Bootstrap."
           />
           <Project 
-            title='Internet of Things' 
+            title='Arduino Internet of Things' 
             repo="" 
             color="Indigo" 
             langs="C++" 
@@ -65,7 +66,7 @@ const Projects = () => {
           />
           <Project
             title='Portfolio React App' 
-            repo='jackoubridge.github.io' 
+            repo='jackoubridge.github.io/tree/dev' 
             color='FireBrick' 
             langs='Javascript' 
             imglink='https://cdn-icons-png.flaticon.com/512/12630/12630918.png' 
