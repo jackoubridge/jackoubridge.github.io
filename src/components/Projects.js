@@ -65,7 +65,7 @@ const Projects = () => {
             text="This implementation of a famous problem-solving method uses genetic mutation and crossover to find the best Sudoku board given a random starting population."
           />
           <Project
-            title='Portfolio React App' 
+            title='Portfolio ReactJS App' 
             repo='jackoubridge.github.io/tree/dev' 
             color='FireBrick' 
             langs='Javascript' 
