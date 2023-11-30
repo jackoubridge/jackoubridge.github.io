@@ -3,9 +3,15 @@ import posterImg from '../assets/poster.jpg';
 import React, { useRef } from 'react';
 
 const Hero = () => {
+
     const videoRef = useRef();
     const setPlayback = () => {
       videoRef.current.playbackRate = 0.5;
+    }
+
+    function handleClick(link){
+      console.log('Clicked ' + link);
+      window.open(link, '_blank').focus();
     }
   
     return (
@@ -34,14 +40,14 @@ const Hero = () => {
               <div className='hero-buttons row m-0 p-0 w-100 d-flex'>
                 <button 
                   type="button" 
-                  onClick={(e) => {e.preventDefault();window.open('https://www.linkedin.com/in/jackoubridge', '_blank').focus();}}
+                  onClick={() => handleClick('https://www.linkedin.com/in/jackoubridge')}
                   className="hero-button external-button m-2 btn btn-light btn-lg border border-dark align-middle d-flex justify-content-between align-items-center">
                     <span className='h-100 p-0'>Linkedin </span>
                     <span className="icon p-0 material-symbols-outlined">captive_portal</span>
                 </button>
                 <button
                   type="button" 
-                  onClick={(e) => {e.preventDefault();window.open('https://github.com/jackoubridge', '_blank').focus();}}
+                  onClick={() => handleClick('https://www.github.com/jackoubridge')}
                   className="hero-button external-button m-2 btn btn-light btn-lg border border-dark align-middle d-flex justify-content-between align-items-center">
                     <span className='h-100 p-0'>Github</span>
                     <span className="icon p-0 material-symbols-outlined">captive_portal</span>
