@@ -1,4 +1,5 @@
-import videoFile from '../assets/background.webm';
+// import videoFile from '../assets/background.webm';
+import videoFile from '../assets/videoplayback.mp4';
 import posterImg from '../assets/poster.jpg';
 import React, { useRef } from 'react';
 
@@ -6,7 +7,7 @@ const Hero = () => {
 
     const videoRef = useRef();
     const setPlayback = () => {
-      videoRef.current.playbackRate = 0.5;
+      videoRef.current.playbackRate = 1;
     }
 
     function handleClick(link){
@@ -22,12 +23,14 @@ const Hero = () => {
           ref={videoRef} 
           className='background-video' 
           id='background-video' 
-          onCanPlay={() => setPlayback()} autoPlay loop muted>
+          onCanPlay={() => setPlayback()}
           poster={posterImg} 
+          autoPlay loop muted>
+          
             <source src={videoFile} type='video/webm' />
         </video>
   
-        <div className='row h-100 w-100 m-0 p-0 z-1'>
+        <div className='row h-100 w-100 m-0 p-0 z-1 text-black'>
   
           <div className='hero-left d-flex justify-content-center align-middle col-md-6 col-sm-12 m-0 p-0 vh-75'>
             <div className='hero-left-content my-auto m-0 p-2 rounded user-select-none'>
@@ -41,14 +44,14 @@ const Hero = () => {
                 <button 
                   type="button" 
                   onClick={() => handleClick('https://www.linkedin.com/in/jackoubridge')}
-                  className="hero-button external-button m-2 btn btn-light btn-lg border border-dark align-middle d-flex justify-content-between align-items-center">
+                  className="hero-button external-button m-2 btn btn-lg border border-black text-black align-middle d-flex justify-content-between align-items-center">
                     <span className='h-100 p-0'>Linkedin </span>
                     <span className="icon p-0 material-symbols-outlined">captive_portal</span>
                 </button>
                 <button
                   type="button" 
                   onClick={() => handleClick('https://www.github.com/jackoubridge')}
-                  className="hero-button external-button m-2 btn btn-light btn-lg border border-dark align-middle d-flex justify-content-between align-items-center">
+                  className="hero-button external-button m-2 btn btn-lg border border-black text-black align-middle d-flex justify-content-between align-items-center">
                     <span className='h-100 p-0'>Github</span>
                     <span className="icon p-0 material-symbols-outlined">captive_portal</span>
                 </button>
@@ -64,10 +67,10 @@ const Hero = () => {
                 </div>
                 <div className='col-8 m-0 p-0 my-auto bullet'>
                   <ul>
-                    <li className='p-1 ps-2 pe-2 d-inline exeter rounded border border-light'>University of Exeter Graduate</li>
-                    <li className='p-1 mt-2'>Problem Solver</li>
-                    <li className='p-1'>Tech Enthusiast</li>
-                    <li className='p-1'>Solution Architect</li>
+                    <li className='p-1 ps-2 pe-2 d-inline exeter border border-light'>University of Exeter Graduate</li>
+                    <li className='p-1 mt-2'>— Problem Solver</li>
+                    <li className='p-1'>— Tech Enthusiast</li>
+                    <li className='p-1'>— Solution Architect</li>
                   </ul>
                 </div>
               </div>
