@@ -104,8 +104,8 @@
 }
 
 .hero-left-content{
-  background-color: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(2rem);
+  background-color: rgba(240, 240, 240, 0.7);
+  backdrop-filter: blur(1rem);
   width: 30rem;
 }
 
@@ -114,11 +114,11 @@
 }
 
 .hero-right-content{
-  background-color: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(2rem);
+  background-color: rgba(240, 240, 240, 0.7);
+  backdrop-filter: blur(1rem);
   width: 35rem;
   min-width: 20rem;
-  height: 15rem;
+  height: 13.4rem;
 }
 
 .hero-button{
@@ -139,8 +139,6 @@
 .projects{
   position: relative;
   background-color: #FAF9F6 !important;
-  /* background-color: rgba(255, 255, 255, 0.9); */
-  background: transparent;
   background-size: cover;
   z-index: 10 !important;
 }
@@ -152,7 +150,7 @@
 }
 
 .myheader{
-  background-color: #FAF9F6 !important;
+  background-color: transparent;
   height: 5rem;
   text-align: center;
   font-weight: 500 !important;
@@ -178,6 +176,8 @@
 
 .card-body{
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .hi-im-jack{
@@ -204,9 +204,9 @@ li{
 
 .github-button{
   background-color: rgba(255, 255, 255, 0.9);
-  width: 11rem;
+  width: 10rem;
   height: auto;
-  font-size: 1.1rem;
+  font-size: 1rem;
   opacity: 0 !important;
   transition: all .1s ease-in-out;
 }
@@ -222,15 +222,20 @@ li{
 }
 
 .project-bottom{
-  padding-left: 1rem;
   width: 100%;
-  height: 3rem;
+  height: 2.75rem;
+}
+
+.card-body > hr{
+  width: 80%;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .project-info{
   font-size: 1rem;
   font-weight: 400;
-  margin-bottom: 2rem !important;
+  flex-grow: 1;
+  box-sizing: border-box;
 }
 
 .badge{
@@ -254,6 +259,8 @@ li{
   background-color: #00c896;
   color: #003c3c;
   font-weight: 500;
+  border-radius: 0.5rem;
+  line-height: 2.25rem;
 }
 
 .about-me-section{
@@ -272,4 +279,8 @@ hr{
   margin-left: auto;
   margin-right: auto;
   width: 75%;
+}
+
+.footer-text{
+  width: 50%;
 }
