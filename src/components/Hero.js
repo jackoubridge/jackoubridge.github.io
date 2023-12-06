@@ -1,6 +1,6 @@
 // import videoFile from '../assets/background.webm';
 import videoFile from '../assets/videoplayback.mp4';
-import posterImg from '../assets/poster.jpg';
+import posterImg from '../assets/poster-1.jpg';
 import React, { useRef } from 'react';
 
 const Hero = () => {
