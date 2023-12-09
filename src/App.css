@@ -190,6 +190,7 @@
 ul{
   list-style-type: none;
   padding-left: 1rem;
+  margin: 0;
 }
 
 li{
@@ -251,7 +252,7 @@ li{
 
 .header-img{
   filter: invert(1);
-  height: 3.5rem !important;
+  height: 3.2rem !important;
 }
 
 .exeter{
@@ -264,12 +265,23 @@ li{
 
 .about-me-section{
   background: rgba(0, 0, 0, 0.1);
-  width: 60rem;
+  width: 75rem;
   margin: 0;
   padding: 0;
-  display: flex;
   justify-content: center;
-  min-height: 10rem;
+  height: auto;
+}
+
+.about-me-header{
+  width: 100% !important;
+  height: 4rem;
+  background-color: rgba(30, 30, 30, 0.1);
+}
+
+.about-me-body{
+  font-size: 1rem !important;
+  width: 100%;
+  height: auto;
 }
 
 hr{
