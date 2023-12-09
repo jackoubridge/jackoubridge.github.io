@@ -1,6 +1,7 @@
 // import videoFile from '../assets/background.webm';
 import videoFile from '../assets/videoplayback.mp4';
 import posterImg from '../assets/poster-1.jpg';
+import mugshot from  '../assets/mugshot.png';
 import React, { useRef } from 'react';
 
 const Hero = React.forwardRef(({ scrollToProjects }, ref) => {
@@ -62,7 +63,7 @@ const Hero = React.forwardRef(({ scrollToProjects }, ref) => {
             <div className='hero-right-content m-0 p-2 rounded user-select-none'>
               <div className='row w-100 h-100 m-0 p-0'>
                 <div className='col-4 m-0 p-0 h-100 d-flex'>
-                  <img className='hero-img rounded my-auto w-100 h-100' loading='lazy' src='https://avatars.githubusercontent.com/u/116497746' alt=""></img>
+                  <img className='hero-img my-auto w-100 h-100' loading='lazy' src={mugshot} alt=""></img>
                 </div>
                 <div className='col-8 m-0 p-0 my-auto bullet'>
                   <ul>
