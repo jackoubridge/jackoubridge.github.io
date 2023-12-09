@@ -317,6 +317,11 @@ hr{
 }
 
 .scroll-button{
+  padding: 0;
+  color: black;
+  background-color: rgba(240, 240, 240, 0.7);
+  backdrop-filter: blur(1rem);
+  border-radius: 2rem;
   z-index: 10 !important;
   cursor: pointer;
 }

@@ -77,7 +77,7 @@ const Hero = React.forwardRef(({ scrollToProjects }, ref) => {
           </div>
   
         </div>
-        <span onClick={scrollToProjects} className="text-white user-select-none position-absolute scroll-button material-symbols-outlined">expand_circle_down</span>
+        <span onClick={scrollToProjects} className="user-select-none position-absolute scroll-button material-symbols-outlined">expand_circle_down</span>
       </div>
       </>
     )
