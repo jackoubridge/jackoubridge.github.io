@@ -26,8 +26,7 @@ const Hero = () => {
           onCanPlay={() => setPlayback()}
           poster={posterImg} 
           autoPlay loop muted>
-          
-            <source src={videoFile} type='video/webm' />
+          <source src={videoFile} type='video/webm' />
         </video>
   
         <div className='row h-100 w-100 m-0 p-0 z-1 text-black'>
@@ -68,7 +67,7 @@ const Hero = () => {
                 <div className='col-8 m-0 p-0 my-auto bullet'>
                   <ul>
                     <li className='p-1 ps-2 pe-2 d-inline exeter border border-light'>University of Exeter Graduate</li>
-                    <li className='p-1 mt-2'>— Problem Solver</li>
+                    <li className='p-1 mt-2'>— Persistent Learner</li>
                     <li className='p-1'>— Tech Enthusiast</li>
                     <li className='p-1'>— Solution Architect</li>
                   </ul>

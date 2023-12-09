@@ -33,12 +33,12 @@ const Projects = () => {
             text="Using SQLAlchemy and Socket.IO, this full-stack app supports a database of users (via Steam login) and real-time simulation gambling. This was my first endeavour into the world of ReactJS and Bootstrap."
           />
           <Project 
-            title='Arduino Internet of Things' 
-            repo="" 
+            title='Internet of Things' 
+            repo="IoT" 
             color="Indigo" 
             langs="C++" 
-            imglink="https://cdn-icons-png.flaticon.com/512/3593/3593289.png" 
-            text="[Description inbound]"
+            imglink="https://cdn-icons-png.flaticon.com/512/4673/4673990.png" 
+            text="DIY web server that allows clients on the local network to communicate wirelessly to the Wi-Fi module and change the colour of an LED. Firmware written in Arduino IDE, hardware secured with an elastic band and a hair tie."
           />
           <Project
             title='Ant Colony Optimisation' 

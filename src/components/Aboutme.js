@@ -7,6 +7,8 @@ const AboutMe = () => {
         <Header title="About Me"/>
 
         <div className="about-me-section rounded">
+          <div className="about-me-body d-flex justify-content-center">
+          </div>
 
         </div>
         
