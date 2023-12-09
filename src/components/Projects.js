@@ -1,10 +1,11 @@
 import Header from './Header';
 import Project from './Project';
+import React from 'react';
 
-const Projects = () => {
+const Projects = React.forwardRef((props, ref) => {
     return(
       <>
-      <div className='projects p-3 container-fluid text-white'>
+      <div className='projects p-3 container-fluid text-white' ref={ref}>
 
         <div className='row w-auto d-flex m-0 p-0 justify-content-center'>
           <Header title="My Projects"/>
@@ -76,7 +77,7 @@ const Projects = () => {
       </div>
       </>
     )
-}
+});
 
 export default Projects
 

@@ -3,7 +3,7 @@ import videoFile from '../assets/videoplayback.mp4';
 import posterImg from '../assets/poster-1.jpg';
 import React, { useRef } from 'react';
 
-const Hero = () => {
+const Hero = React.forwardRef(({ scrollToProjects }, ref) => {
 
     const videoRef = useRef();
     const setPlayback = () => {
@@ -17,7 +17,7 @@ const Hero = () => {
   
     return (
       <>
-      <div className='hero p-3 container-fluid overflow-hidden'>
+      <div className='hero p-3 container-fluid overflow-hidden d-flex justify-content-center'>
   
         <video 
           ref={videoRef} 
@@ -59,7 +59,7 @@ const Hero = () => {
           </div>
   
           <div className='hero-right d-flex align-middle col-md-6 col-sm-12 m-0 p-0 vh-75'>
-            <div className='hero-right-content my-auto m-0 p-2 rounded user-select-none'>
+            <div className='hero-right-content m-0 p-2 rounded user-select-none'>
               <div className='row w-100 h-100 m-0 p-0'>
                 <div className='col-4 m-0 p-0 h-100 d-flex'>
                   <img className='hero-img rounded my-auto w-100 h-100' loading='lazy' src='https://avatars.githubusercontent.com/u/116497746' alt=""></img>
@@ -77,9 +77,10 @@ const Hero = () => {
           </div>
   
         </div>
+        <span onClick={scrollToProjects} className="text-white user-select-none position-absolute scroll-button material-symbols-outlined">expand_circle_down</span>
       </div>
       </>
     )
-  }
+  });
 
   export default Hero;

@@ -35,6 +35,11 @@
     justify-content: start;
   }
 
+  .hero-right-content{
+    margin-top: auto!important;
+    margin-bottom: auto!important;
+  }
+
   .col-md-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
@@ -54,6 +59,11 @@
     width: 30rem !important;
   }
 
+  .scroll-button{
+    bottom: 10%;
+    font-size: 4rem;
+  }
+
 }
 @media screen and (max-width: 1019px) { /* smaller breakpoint */
   .vh-75 {
@@ -67,6 +77,11 @@
   .hero-right{
     padding-bottom: 0 !important;
     justify-content: center;
+  }
+
+  .hero-right-content{
+    margin-top: 0;
+    margin-bottom: auto!important;
   }
 
   .hero-left-content{
@@ -100,6 +115,11 @@
   .project{
     width: 45rem !important;
     min-height: 14rem;
+  }
+
+  .scroll-button{
+    bottom: 3%;
+    font-size: 3rem;
   }
 }
 
@@ -294,4 +314,9 @@ hr{
 
 .footer-text{
   width: 50%;
+}
+
+.scroll-button{
+  z-index: 10 !important;
+  cursor: pointer;
 }
