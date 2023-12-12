@@ -123,6 +123,11 @@
   }
 }
 
+@media screen and (max-width: 1019px) { /* smallest breakpoint */
+
+
+}
+
 .hero-left-content{
   background-color: rgba(240, 240, 240, 0.7);
   backdrop-filter: blur(1rem);
@@ -220,6 +225,8 @@ li{
 
 .hero-img{
   object-fit: cover;
+  filter: drop-shadow(0.1rem 0.1rem 0.05rem rgba(0, 0, 0, 0.15));
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .github-button{
@@ -261,7 +268,7 @@ li{
 .badge{
   height: auto;
   width: auto;
-  font-size: 0.84rem;
+  font-size: 0.95rem;
   font-weight: 700;
   background: transparent;
 }
