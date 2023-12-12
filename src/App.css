@@ -121,6 +121,10 @@
     bottom: 3%;
     font-size: 3rem;
   }
+
+  .hidden, .hidden > *{
+    display: none !important;
+  }
 }
 
 @media screen and (max-width: 400px) { /* smallest breakpoint */
@@ -149,7 +153,7 @@
 .hero-right-content{
   background-color: rgba(240, 240, 240, 0.7);
   backdrop-filter: blur(1rem);
-  min-width: 22rem;
+  width: 31rem;
   height: 13.4rem;
 }
 
@@ -199,7 +203,7 @@
 .card-header{
   display: flex;
   align-items: center;
-  font-size: 1.4rem !important;
+  font-size: 1.6rem !important;
   background-color: rgba(255, 255, 255, 0.2);
   border: none;
   height: auto;
@@ -262,8 +266,8 @@ li{
 }
 
 .card-body > hr{
-  width: 80%;
-  color: rgba(255, 255, 255, 0.6);
+  width: 90%;
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .project-info{
@@ -339,4 +343,13 @@ hr{
   border-radius: 2rem;
   z-index: 10 !important;
   cursor: pointer;
+}
+
+.projects-row{
+  justify-content: center;
+}
+
+.hidden > *, .hidden button{
+  opacity: 0;
+  cursor: default !important;
 }
