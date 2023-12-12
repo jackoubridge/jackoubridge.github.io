@@ -123,9 +123,17 @@
   }
 }
 
-@media screen and (max-width: 1019px) { /* smallest breakpoint */
+@media screen and (max-width: 400px) { /* smallest breakpoint */
+  .github-button .visit-text{
+    display: none !important;
+  }
+  .github-button{
+    width: 2.1rem !important;
+  }
 
-
+  .footer-text{
+    font-size: 0.9rem !important;
+  }
 }
 
 .hero-left-content{
@@ -231,9 +239,9 @@ li{
 
 .github-button{
   background-color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
   width: 10rem;
   height: auto;
-  font-size: 1rem;
   opacity: 0 !important;
   transition: all .1s ease-in-out;
 }
