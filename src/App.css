@@ -64,6 +64,10 @@
     font-size: 4rem;
   }
 
+  li{
+    font-size: 1.26rem !important;
+  }
+
 }
 @media screen and (max-width: 1019px) { /* smaller breakpoint */
   .vh-75 {
@@ -125,6 +129,10 @@
   .hidden, .hidden > *{
     display: none !important;
   }
+
+  li{
+    font-size: 1.15rem !important;
+  }
 }
 
 @media screen and (max-width: 400px) { /* smallest breakpoint */
@@ -137,6 +145,14 @@
 
   .footer-text{
     font-size: 0.9rem !important;
+  }
+
+  ul{
+    padding-left: 0.25rem !important;
+  }
+
+  li{
+    font-size: 1.09rem !important;
   }
 }
 
@@ -231,7 +247,6 @@ ul{
 }
 
 li{
-  font-size: 1.26rem !important;
   padding-top: 0.9rem;
 }
 
