@@ -29,7 +29,7 @@ const Projects = React.forwardRef((props, ref) => {
             title='Full-Stack Web App' 
             repo='Flask-App' 
             color='DarkSlateBlue' 
-            langs='Javascript, Python'
+            langs='JavaScript, Python'
             imglink='https://cdn-icons-png.flaticon.com/512/1336/1336494.png' 
             text="Using SQLAlchemy and Socket.IO, this full-stack app supports a database of users (via Steam login) and real-time simulation gambling. This was my first endeavour into the world of ReactJS and Bootstrap."
           />
@@ -69,7 +69,7 @@ const Projects = React.forwardRef((props, ref) => {
             title='Portfolio ReactJS App' 
             repo='jackoubridge.github.io/tree/dev' 
             color='FireBrick' 
-            langs='Javascript' 
+            langs='JavaScript' 
             imglink='https://cdn-icons-png.flaticon.com/512/12630/12630918.png' 
             text='This very site... how meta. Uses ReactJS and Bootstrap to achieve a useful and visually stunning site. Featured in this app is a card that reads "This very site... how meta. Uses ReactJS and Bootstrap to achieve a useful and visually stunning site. Featured in this app is a card tha-'
           />
