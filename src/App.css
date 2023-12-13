@@ -174,7 +174,7 @@
 }
 
 .hero-button{
-  width: 8.66rem;
+  width: auto;
   height: 2.5rem !important;
   padding: 0.2rem !important;
   font-size: 1.15rem;
@@ -233,7 +233,7 @@
 }
 
 .hi-im-jack{
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .icon{
