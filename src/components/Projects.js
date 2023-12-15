@@ -5,7 +5,7 @@ import React from 'react';
 const Projects = React.forwardRef((props, ref) => {
     return(
       <>
-      <div className='projects p-3 container-fluid text-white' ref={ref}>
+      <div className='projects p-3 container-fluid m-0 text-white' ref={ref}>
 
         <div className='row w-auto d-flex m-0 p-0 projects-row'>
           <Header title="My Projects"/>
