@@ -3,7 +3,6 @@ import Hero from './components/Hero'
 import Projects from './components/Projects';
 // import AboutMe from './components/AboutMe';
 import Footer from './components/Footer';
-
 import React, { useRef } from 'react';
 
 const App = () => {

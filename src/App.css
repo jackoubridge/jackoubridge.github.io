@@ -45,16 +45,6 @@
     max-width: 50%;
   }
 
-  .col-md-7 {
-    flex: 0 0 auto;
-    width: 58.33333333%;
-  }
-
-  .col-md-5 {
-    flex: 0 0 auto;
-    width: 41.66666667%;
-  }
-
   .myheader{
     font-size: 3rem !important;
   }

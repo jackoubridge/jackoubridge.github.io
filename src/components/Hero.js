@@ -31,7 +31,6 @@ const Hero = React.forwardRef(({ scrollToProjects }, ref) => {
 
         <div className='hero-container row rounded my-auto'>
 
-          {/* HERO LEFT */}
           <div className='hero-l m-0 p-3 col-md-6 col-sm-12'>
             <span className='d-block p-2 display-2 w-100 hi-im-jack'>
               Hi, I'm Jack
@@ -57,7 +56,6 @@ const Hero = React.forwardRef(({ scrollToProjects }, ref) => {
             </div>
           </div>
 
-          {/* HERO RIGHT */}
           <div className='hero-r row m-0 p-3 col-md-6 col-sm-12'>
             <div className='col-md-4 col-sm-4 m-0 p-0 imgcol d-flex justify-content-center'>
               <img className='hero-img my-auto w-100 h-100 rounded' loading='lazy' src={mugshot} alt=""></img>

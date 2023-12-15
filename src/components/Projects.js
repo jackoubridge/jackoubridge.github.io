@@ -39,7 +39,7 @@ const Projects = React.forwardRef((props, ref) => {
             color="#2e2e2e" 
             langs="C++" 
             imglink="https://cdn-icons-png.flaticon.com/512/4673/4673990.png" 
-            text="DIY web server that allows clients on the local network to communicate wirelessly with the Wi-Fi module and change the colour of an LED. Firmware written in Arduino IDE, hardware secured with an elastic band and a hair tie."
+            text="DIY web server that allows clients on the local network to communicate wirelessly with the Wi-Fi module and change the colour of an LED. Firmware written in Arduino IDE, hardware secured with elastic bands."
           />
           <Project
             title='Ant Colony Optimisation' 
@@ -67,7 +67,7 @@ const Projects = React.forwardRef((props, ref) => {
           />
           <Project
             title='Portfolio ReactJS App' 
-            repo='jackoubridge.github.io/tree/dev' 
+            repo='jackoubridge.github.io' 
             color='FireBrick' 
             langs='JavaScript' 
             imglink='https://cdn-icons-png.flaticon.com/512/12630/12630918.png' 
