@@ -37,7 +37,7 @@ const Hero = React.forwardRef(({ scrollToProjects }, ref) => {
               Hi, I'm Jack
             </span>
             <span className='d-block m-0 mt-2 mb-3 p-2 h5 tagline'>
-                Software developer. Tech enhusiast.
+                Software developer. Tech enthusiast.
             </span>
             <div className='hero-buttons mt-2 row m-0 p-0 w-100 d-flex'>
                 <button 
