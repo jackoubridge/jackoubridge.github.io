@@ -5,7 +5,6 @@
 .hero{
   position: relative;
   min-height: 100vh !important;
-  padding-bottom: 15rem !important;
   overflow-y: visible;
 }
 
@@ -14,7 +13,6 @@
 }
 
 .background-video{
-  /* position: absolute; */
   position: fixed !important;
   top: 0;
   left: 0;
@@ -25,33 +23,20 @@
 }
 
 @media screen and (min-width: 1020px) { /* larger breakpoint */
-  .vh-75 {
-    height: 100% !important;
+
+  .hero{
+    padding-bottom: 15rem !important;
   }
 
   .hero-l{
     height: 16rem !important;
     text-align: left;
-    /* border-right: gray thin solid; */
   }
 
   .hero-r{
     height: 16rem !important;
     height: auto;
     padding-left: 0 !important;
-  }
-
-  .hero-left{
-    padding-bottom: 10rem !important;
-  }
-  .hero-right{
-    padding-bottom: 10rem !important;
-    justify-content: start;
-  }
-
-  .hero-right-content{
-    margin-top: auto!important;
-    margin-bottom: auto!important;
   }
 
   .col-md-6 {
@@ -94,8 +79,9 @@
 
 }
 @media screen and (max-width: 1019px) { /* smaller breakpoint */
-  .vh-75 {
-    height: 50% !important;
+
+  .hero{
+    padding-bottom: 10rem !important;
   }
 
   .hero-container{
@@ -105,31 +91,10 @@
   .hero-l{
     height: auto;
     text-align: center;
-    height: 15rem !important;
-    /* border-bottom: gray thin solid; */
   }
 
   .hero-r{
     height: 15rem !important;
-  }
-
-  .hero-left{
-    padding-bottom: 0 !important;
-  }
-
-  .hero-right{
-    padding-bottom: 0 !important;
-    justify-content: center;
-  }
-
-  .hero-right-content{
-    margin-top: 0;
-    margin-bottom: auto!important;
-  }
-
-  .hero-left-content{
-    text-wrap: balance !important;
-    text-align: center !important;
   }
 
   .col-sm-12 {
@@ -165,13 +130,17 @@
     justify-content: center;
   }
 
+  .projects-row{
+    width: 100% !important;
+  }
+
   .project{
     width: 45rem !important;
     min-height: 14rem;
   }
 
   .scroll-button{
-    bottom: 3rem;
+    bottom: 5rem;
     font-size: 3rem;
   }
 
@@ -188,7 +157,8 @@
   }
 }
 
-@media screen and (max-width: 400px) { /* smallest breakpoint */
+@media screen and (max-width: 456px) { /* smallest breakpoint */
+
   .github-button .visit-text{
     display: none !important;
   }
@@ -226,30 +196,17 @@
     padding-right: 0.4rem !important;
   }
 
-  li{
-    font-size: 0.93rem !important;
+  .imgcol{
+    display: none !important;
+  }
+
+  .mylist{
+    width: 100% !important;
   }
 }
 
-.hero-left-content{
-  background-color: rgba(240, 240, 240, 0.7);
-  backdrop-filter: blur(1rem);
-  width: 30rem;
-}
-
-.hero-left-content::-webkit-scrollbar {
-  display: none;
-}
-
-.hero-right-content{
-  background-color: rgba(240, 240, 240, 0.7);
-  backdrop-filter: blur(1rem);
-  width: 31rem;
-  height: 13.4rem;
-}
-
 .hero-button{
-  width: auto;
+  width: 7.55rem;
   height: 2.5rem !important;
   padding: 0.2rem !important;
   font-size: 1.15rem;
@@ -268,7 +225,8 @@
   position: relative;
   background-color: #FAF9F6 !important;
   background-size: cover;
-  /* z-index: 10 !important; */
+  display: flex;
+  justify-content: center;
 }
 
 .projectcard{
@@ -391,7 +349,6 @@ li{
   font-weight: 500 !important;
   border-radius: 0.5rem !important;
   border-color: white !important;
-  /* line-height: 2.25rem; */
 }
 
 .about-me-section{
@@ -439,6 +396,8 @@ hr{
 
 .projects-row{
   justify-content: center;
+  width: 100%;
+  max-width: 100rem !important;
 }
 
 .hidden > *, .hidden button{
@@ -451,10 +410,6 @@ hr{
   height: auto;
   background-color: rgba(240, 240, 240, 0.7);
   backdrop-filter: blur(1rem);
-}
-
-.test{
-  height: 13rem !important;
 }
 
 li{
