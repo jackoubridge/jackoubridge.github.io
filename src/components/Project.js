@@ -10,13 +10,11 @@ const Project = (props) => {
     for(const [i, lang] of langs.entries()){
       list.push(<Badge key={i} lang={lang}/>)
     }
-
-    const classString = "project d-inline m-0 p-1 " + props.addClass;
   
     return (
       <>
       <Fade duration={400}>
-      <div className={classString}>
+      <div className={"project d-inline m-0 p-1"}>
         <div className='card shadow-sm projectcard w-100 h-100 text-light' style={{backgroundColor: props.color}}>
           <div className='card-header justify-content-between w-100 user-select-none align-middle ps-3 pe-3 pt-1 pb-1'>
             {props.title}
@@ -31,7 +29,7 @@ const Project = (props) => {
               <div className='badges w-auto h-100 d-flex align-middle rounded'>
                 {list}
               </div>
-              <GitHubButton repo={props.repo}/>
+              <GitHubButton url={props.url} type={props.type}/>
             </div>
           </div>
         </div>

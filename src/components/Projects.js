@@ -9,9 +9,19 @@ const Projects = React.forwardRef((props, ref) => {
 
         <div className='row w-auto d-flex m-0 p-0 projects-row'>
           <Header title="My Projects"/>
+          {/* <Project 
+            title='Jiggz.net'
+            type='Site'
+            url='https://web.jackoubridge.com'
+            color='#3234a8' 
+            langs="JavaScript, Node.JS, Cloud Computing" 
+            imglink='https://cdn-icons-png.flaticon.com/512/1925/1925065.png' 
+            text="A system of services that come together to form Jiggz.net. Includes a Minecraft server hosted by Google Cloud and a supporting Node.JS app that fetches the server's telemetry."
+          /> */}
           <Project 
-            title='3D Graphics Engine' 
-            repo='PyOpenGL' 
+            title='3D Graphics Engine'
+            type="Repository"
+            url='PyOpenGL' 
             color='Crimson' 
             langs="GLSL, Python" 
             imglink='https://cdn-icons-png.flaticon.com/512/9417/9417368.png' 
@@ -19,47 +29,53 @@ const Projects = React.forwardRef((props, ref) => {
           />
           <Project 
             title='Microservices' 
-            repo='Microservices' 
+            type="Repository"
+            url='Microservices' 
             color='#015c5c' 
             langs='Go' 
             imglink='https://cdn-icons-png.flaticon.com/512/9673/9673387.png' 
             text="Shazam-like system using microservices. Employs a RESTful API to identify songs from audio fragments, comparing them with a database and determining the played song from a snippet."
           />
-          <Project
-            title='Full-Stack Web App' 
-            repo='Flask-App' 
-            color='MidnightBlue' 
-            langs='JavaScript, Python'
-            imglink='https://cdn-icons-png.flaticon.com/512/1336/1336494.png' 
-            text="Using SQLAlchemy and Socket.IO, this full-stack app supports a database of users (via Steam login) and real-time simulation gambling. This was my first endeavour into the world of ReactJS and Bootstrap."
-          />
           <Project 
             title='Internet of Things' 
-            repo="IoT" 
+            type="Repository"
+            url="IoT" 
             color="#2e2e2e" 
-            langs="C++" 
+            langs="C++, Hardware" 
             imglink="https://cdn-icons-png.flaticon.com/512/4673/4673990.png" 
             text="DIY web server that allows clients on the local network to communicate wirelessly with the Wi-Fi module and change the colour of an LED. Firmware written in Arduino IDE, hardware secured with elastic bands."
           />
           <Project
+            title='Full-Stack Web App' 
+            type="Repository"
+            url='Flask-App' 
+            color='MidnightBlue' 
+            langs='JavaScript, Python'
+            imglink='https://cdn-icons-png.flaticon.com/512/1336/1336494.png' 
+            text="Using SQLAlchemy and Socket.IO, this full-stack Flask app supports a database of users (via Steam login) and real-time simulation gambling. This was my first endeavour into the world of ReactJS and Bootstrap."
+          />
+          <Project
+            title='Game Development' 
+            type="Repository"
+            url='unity-project' 
+            color='#d16a0a' 
+            langs='C++' 
+            imglink='https://cdn-icons-png.flaticon.com/512/686/686589.png' 
+            text='A first-person shooter Unity project, featuring a robust character controller, realistic physics and ray casting.'
+          />
+          <Project
             title='Ant Colony Optimisation' 
-            repo='Ant-Colony-Optimisation-Travelling-Salesman' 
+            type="Repository"
+            url='Ant-Colony-Optimisation-Travelling-Salesman' 
             color='ForestGreen' 
             langs='Python' 
             imglink='https://cdn-icons-png.flaticon.com/512/2103/2103620.png' 
             text="A nature-inspired application that tackles the Travelling Salesman problem. Using pheromones, randomness and a thousand iterations, the power of the colony finds the best fitness."
           />
           <Project
-            title='Game Development' 
-            repo='unity-project' 
-            color='#d16a0a' 
-            langs='C++' 
-            imglink='https://cdn-icons-png.flaticon.com/512/686/686589.png' 
-            text='A first-person shooter Unity project that includes a CharacterController, object spawning and physics, and Ray Casting.'
-          />
-          <Project
             title="Evolutionary Algorithm" 
-            repo='Sudoku-EA' 
+            type="Repository"
+            url='Sudoku-EA' 
             color='#6f52ab' 
             langs='Python' 
             imglink='https://cdn-icons-png.flaticon.com/512/11918/11918995.png' 
@@ -67,20 +83,12 @@ const Projects = React.forwardRef((props, ref) => {
           />
           <Project
             title='Portfolio ReactJS App' 
-            repo='jackoubridge.github.io' 
+            type="Repository"
+            url='jackoubridge.github.io' 
             color='FireBrick' 
             langs='JavaScript' 
             imglink='https://cdn-icons-png.flaticon.com/512/12630/12630918.png' 
             text='This very site... how meta. Uses ReactJS and Bootstrap to achieve a useful and visually stunning site. Featured in this app is a card that reads "This very site... how meta. Uses ReactJS and Bootstrap to achieve a useful and visually stunning site. Featured in this app is a card tha-'
-          />
-          <Project
-            title='' 
-            repo='' 
-            color='Transparent' 
-            langs='' 
-            imglink='' 
-            text=''
-            addClass="hidden"
           />
         </div>
       </div>
