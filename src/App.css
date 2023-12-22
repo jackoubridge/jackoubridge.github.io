@@ -146,6 +146,10 @@
   .tagline{
     font-size: 1.26rem;
   }
+
+  .skills-row{
+    justify-content: center !important;
+  }
 }
 
 @media screen and (max-width: 456px) { /* smallest breakpoint */
@@ -212,7 +216,7 @@
   transition: all .1s ease-in-out;
 }
 
-.projects{
+.projects, .skills{
   position: relative;
   background-color: #FAF9F6 !important;
   background-size: cover;
@@ -413,4 +417,23 @@ li{
   padding-left: 0.25rem !important;
   padding-right: 0.25rem !important;
   border: transparent solid 0.1rem !important;
+}
+
+.skill{
+  height: 4rem;
+  width: auto;
+  overflow: hidden;
+  font-weight: 500;
+}
+
+.skill-img{
+  filter: invert(1);
+}
+
+.skills-row{
+  width: 70rem !important;
+}
+
+.email{
+  font-weight: 400 !important;
 }
