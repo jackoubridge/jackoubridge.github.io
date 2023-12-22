@@ -198,6 +198,15 @@
   .mylist{
     width: 100% !important;
   }
+
+  .skill{
+    width: 100% !important;
+  }
+
+  .skill-content, .skill-title{
+    text-align: center !important;
+    width: 100% !important;
+  }
 }
 
 .hero-button{
