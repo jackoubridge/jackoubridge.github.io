@@ -2,6 +2,7 @@ import './App.css';
 import Hero from './components/Hero'
 import Projects from './components/Projects';
 // import AboutMe from './components/AboutMe';
+import Skills from './components/Skills';
 import Footer from './components/Footer';
 import React, { useRef } from 'react';
 
@@ -19,6 +20,7 @@ const App = () => {
     <div className="App text-dark">
       <Hero scrollToProjects={scrollToProjects}/>
       <Projects ref={projectsRef}/>
+      <Skills/>
       {/* <AboutMe/> */}
       <Footer/>
     </div>
