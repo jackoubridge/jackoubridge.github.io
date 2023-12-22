@@ -9,7 +9,7 @@ const Projects = React.forwardRef((props, ref) => {
 
         <div className='row w-auto d-flex m-0 p-0 projects-row'>
           <Header title="My Projects"/>
-          {/* <Project 
+          <Project 
             title='Jiggz.net'
             type='Site'
             url='https://web.jackoubridge.com'
@@ -17,7 +17,7 @@ const Projects = React.forwardRef((props, ref) => {
             langs="JavaScript, Node.JS, Cloud Computing" 
             imglink='https://cdn-icons-png.flaticon.com/512/1925/1925065.png' 
             text="A system of services that come together to form Jiggz.net. Includes a Minecraft server hosted by Google Cloud and a supporting Node.JS app that fetches the server's telemetry."
-          /> */}
+          />
           <Project 
             title='3D Graphics Engine'
             type="Repository"
