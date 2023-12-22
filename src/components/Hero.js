@@ -46,14 +46,14 @@ const Hero = React.forwardRef(({ scrollToProjects }, ref) => {
                   type="button" 
                   onClick={() => handleClick('https://www.linkedin.com/in/jackoubridge')}
                   className="hero-button external-button m-2 btn btn-lg border border-black text-black align-middle d-flex justify-content-between align-items-center">
-                    <span className='h-100 p-0 pe-2'>Linkedin </span>
+                    <span className='my-auto p-0 pe-2'>Linkedin </span>
                     <span className="icon p-0 material-symbols-outlined">captive_portal</span>
                 </button>
                 <button
                   type="button" 
                   onClick={() => handleClick('https://www.github.com/jackoubridge')}
                   className="hero-button external-button m-2 btn btn-lg border border-black text-black align-middle d-flex justify-content-between align-items-center">
-                    <span className='h-100 p-0 pe-2'>Github</span>
+                    <span className='my-auto p-0 pe-2'>Github</span>
                     <span className="icon p-0 material-symbols-outlined">captive_portal</span>
                 </button>
             </div>
