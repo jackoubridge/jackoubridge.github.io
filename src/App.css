@@ -55,7 +55,6 @@
   }
 
   .project{
-    min-height: 16rem;
     width: 30rem !important;
   }
 
@@ -318,11 +317,6 @@ li{
   min-height: 2.75rem;
 }
 
-.card-body > hr{
-  width: 90%;
-  color: rgba(255, 255, 255, 0.4);
-}
-
 .project-info{
   font-size: 1rem;
   font-weight: 400;
@@ -418,6 +412,8 @@ hr{
   height: auto;
   background-color: rgba(240, 240, 240, 0.7);
   backdrop-filter: blur(1rem);
+  animation: parallax linear;
+  animation-timeline: scroll();
 }
 
 li{
@@ -435,14 +431,24 @@ li{
   font-weight: 500;
 }
 
+.skill-title{
+  font-size: 1.2rem;
+}
+
 .skill-img{
   filter: invert(1);
 }
 
 .skills-row{
-  width: 70rem !important;
+  width: 75rem !important;
 }
 
 .email{
   font-weight: 400 !important;
+}
+
+@keyframes parallax{
+  to{
+    transform: translateY(25rem);
+  }
 }
