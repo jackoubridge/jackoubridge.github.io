@@ -1,30 +1,30 @@
 import videoFile from '../assets/videoplayback.mp4';
 import posterImg from '../assets/poster-1.jpg';
-import mugshot from  '../assets/mugshot.png';
-import React, { useRef } from 'react';
+import mugshot from '../assets/mugshot.png';
+import { forwardRef, useRef } from 'react';
 
-const Hero = React.forwardRef(({ scrollToProjects }, ref) => {
+const Hero = forwardRef(({ scrollToProjects }, ref) => {
 
-    const videoRef = useRef();
-    const setPlayback = () => {
-      videoRef.current.playbackRate = 1;
-    }
+  const videoRef = useRef();
+  const setPlayback = () => {
+    videoRef.current.playbackRate = 1;
+  }
 
-    function handleClick(link){
-      console.log('Clicked ' + link);
-      window.open(link, '_blank').focus();
-    }
-  
-    return (
-      <>
+  function handleClick(link) {
+    console.log('Clicked ' + link);
+    window.open(link, '_blank').focus();
+  }
+
+  return (
+    <>
       <div className='hero p-3 container-fluid d-flex justify-content-center'>
-  
-        <video 
-          ref={videoRef} 
-          className='background-video' 
-          id='background-video' 
+
+        <video
+          ref={videoRef}
+          className='background-video'
+          id='background-video'
           onCanPlay={() => setPlayback()}
-          poster={posterImg} 
+          poster={posterImg}
           autoPlay loop muted>
           <source src={videoFile} type='video/mp4' />
         </video>
@@ -36,26 +36,26 @@ const Hero = React.forwardRef(({ scrollToProjects }, ref) => {
               Hi, I'm Jack
             </span>
             <span className='d-block m-0 mb-1 p-2 h5 tagline'>
-                Software developer. Tech enthusiast.
+              Software developer. Tech enthusiast.
             </span>
             <span className='d-block m-0 mt-1 p-2 h5 pb-0 tagline email'>
-                jaoubridge@gmail.com
+              jaoubridge@gmail.com
             </span>
             <div className='hero-buttons row m-0 p-0 w-100 d-flex'>
-                <button 
-                  type="button" 
-                  onClick={() => handleClick('https://www.linkedin.com/in/jackoubridge')}
-                  className="hero-button external-button m-2 btn btn-lg border border-black text-black align-middle d-flex justify-content-between align-items-center">
-                    <span className='my-auto p-0 pe-2'>Linkedin </span>
-                    <span className="icon p-0 material-symbols-outlined">captive_portal</span>
-                </button>
-                <button
-                  type="button" 
-                  onClick={() => handleClick('https://www.github.com/jackoubridge')}
-                  className="hero-button external-button m-2 btn btn-lg border border-black text-black align-middle d-flex justify-content-between align-items-center">
-                    <span className='my-auto p-0 pe-2'>Github</span>
-                    <span className="icon p-0 material-symbols-outlined">captive_portal</span>
-                </button>
+              <button
+                type="button"
+                onClick={() => handleClick('https://www.linkedin.com/in/jackoubridge')}
+                className="hero-button external-button m-2 btn btn-lg border border-black text-black align-middle d-flex justify-content-between align-items-center">
+                <span className='my-auto p-0 pe-2'>Linkedin </span>
+                <span className="icon p-0 material-symbols-outlined">captive_portal</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => handleClick('https://www.github.com/jackoubridge')}
+                className="hero-button external-button m-2 btn btn-lg border border-black text-black align-middle d-flex justify-content-between align-items-center">
+                <span className='my-auto p-0 pe-2'>Github</span>
+                <span className="icon p-0 material-symbols-outlined">captive_portal</span>
+              </button>
             </div>
           </div>
 
@@ -64,11 +64,11 @@ const Hero = React.forwardRef(({ scrollToProjects }, ref) => {
               <img className='hero-img my-auto w-100 h-100 rounded' loading='lazy' src={mugshot} alt=""></img>
             </div>
             <div className='col-md-8 col-sm-8 m-0 p-0 ps-2 d-flex justify-content-center mylist'>
-              <ul class="list-group ps-0 pe-0 my-auto">
-                <li class="list-group-item exeter">University of Exeter Graduate</li>
-                <li class="list-group-item">- Persistent Learner</li>
-                <li class="list-group-item">- Passionate Programmer</li>
-                <li class="list-group-item">- Solution Architect</li>
+              <ul className="list-group ps-0 pe-0 my-auto">
+                <li className="list-group-item exeter">University of Exeter Graduate</li>
+                <li className="list-group-item">- Persistent Learner</li>
+                <li className="list-group-item">- Passionate Programmer</li>
+                <li className="list-group-item">- Solution Architect</li>
               </ul>
             </div>
           </div>
@@ -76,8 +76,8 @@ const Hero = React.forwardRef(({ scrollToProjects }, ref) => {
 
         <span onClick={scrollToProjects} className="user-select-none position-absolute scroll-button material-symbols-outlined">expand_circle_down</span>
       </div>
-      </>
-    )
-  });
+    </>
+  )
+});
 
-  export default Hero;
+export default Hero;

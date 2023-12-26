@@ -2,18 +2,18 @@
   background-color: #FAF9F6 !important;
 }
 
-.hero{
+.hero {
   position: relative;
   min-height: 100vh !important;
   min-height: 100svh !important;
   overflow-y: visible;
 }
 
-.rounded{
+.rounded {
   border-radius: 1rem !important;
 }
 
-.background-video{
+.background-video {
   position: fixed !important;
   top: 0;
   left: 0;
@@ -23,18 +23,19 @@
   filter: brightness(0.8);
 }
 
-@media screen and (min-width: 1020px) { /* larger breakpoint */
+@media screen and (min-width: 1020px) {
+  /* larger breakpoint */
 
-  .hero{
+  .hero {
     padding-bottom: 15rem !important;
   }
 
-  .hero-l{
+  .hero-l {
     height: 16rem !important;
     text-align: left;
   }
 
-  .hero-r{
+  .hero-r {
     height: 16rem !important;
     height: auto;
     padding-left: 0 !important;
@@ -46,44 +47,46 @@
     max-width: 50%;
   }
 
-  .myheader{
+  .myheader {
     font-size: 3rem !important;
   }
 
-  .display-2{
+  .display-2 {
     font-size: 4.5rem !important;
   }
 
-  .project{
+  .project {
     width: 30rem !important;
   }
 
-  .scroll-button{
+  .scroll-button {
     bottom: 5rem;
     font-size: 3.5rem;
   }
 
-  li{
+  li {
     font-size: 1.26rem !important;
   }
 
 }
-@media screen and (max-width: 1019px) { /* smaller breakpoint */
 
-  .hero{
+@media screen and (max-width: 1019px) {
+  /* smaller breakpoint */
+
+  .hero {
     padding-bottom: 10rem !important;
   }
 
-  .hero-container{
+  .hero-container {
     max-width: 40rem;
   }
 
-  .hero-l{
+  .hero-l {
     height: auto;
     text-align: center;
   }
 
-  .hero-r{
+  .hero-r {
     height: 15rem !important;
   }
 
@@ -98,117 +101,122 @@
     width: 66.66666667%;
   }
 
-  .col-sm-4{
+  .col-sm-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
   }
 
-  .projectcard{
+  .projectcard {
     margin-left: 0;
     margin-right: 0;
   }
 
-  .myheader{
+  .myheader {
     font-size: 2.5rem !important;
   }
 
-  .display-2{
+  .display-2 {
     font-size: 3.05rem !important;
   }
 
-  .hero-buttons{
+  .hero-buttons {
     justify-content: center;
   }
 
-  .projects-row{
+  .projects-row {
     width: 100% !important;
   }
 
-  .project{
+  .project {
     width: 45rem !important;
     min-height: 14rem;
   }
 
-  .scroll-button{
+  .scroll-button {
     bottom: 5rem;
     font-size: 3rem;
   }
 
-  .hidden, .hidden > *{
+  .hidden,
+  .hidden>* {
     display: none !important;
   }
 
-  li{
+  li {
     font-size: 1.15rem !important;
   }
 
-  .tagline{
+  .tagline {
     font-size: 1.26rem;
   }
 
-  .skills-row{
+  .skills-row {
     justify-content: center !important;
   }
 }
 
-@media screen and (max-width: 456px) { /* smallest breakpoint */
+@media screen and (max-width: 456px) {
+  /* smallest breakpoint */
 
-  .github-button .visit-text{
+  .github-button .visit-text {
     display: none !important;
   }
-  .github-button{
+
+  .github-button {
     width: 2.1rem !important;
   }
 
-  .footer-text{
+  .footer-text {
     font-size: 0.9rem !important;
   }
 
-  ul{
+  ul {
     padding-left: 0.25rem !important;
   }
 
-  li{
+  li {
     font-size: 1.09rem !important;
   }
 
-  .hero-buttons, .tagline{
+  .hero-buttons,
+  .tagline {
     margin: 0 !important;
   }
 
-  .tagline{
+  .tagline {
     font-size: 1.084rem;
   }
 
-  .hero-l{
+  .hero-l {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
 
-  .hero-r{
+  .hero-r {
     padding-left: 0.4rem !important;
     padding-right: 0.4rem !important;
   }
 
-  .imgcol{
+  .imgcol {
     display: none !important;
   }
 
-  .mylist{
+  .mylist {
     width: 100% !important;
   }
 
-  .skill{
+  .skill {
     width: 100% !important;
   }
 
-  .skill-content, .skill-title{
+  .skill-content,
+  .skill-title {
     text-align: center !important;
     width: 100% !important;
   }
 }
 
-.hero-button{
+.hero-button {
   width: 7.55rem;
   height: 2.5rem !important;
   padding: 0.2rem !important;
@@ -219,12 +227,13 @@
   overflow: hidden !important;
 }
 
-.hero-button:hover{
+.hero-button:hover {
   background-color: rgba(255, 255, 255, 0.5) !important;
   transition: all .1s ease-in-out;
 }
 
-.projects, .skills{
+.projects,
+.skills {
   position: relative;
   background-color: #FAF9F6 !important;
   background-size: cover;
@@ -232,20 +241,20 @@
   justify-content: center;
 }
 
-.projectcard{
+.projectcard {
   outline: none;
   border: none;
   transition: all .1s ease-in-out;
 }
 
-.myheader{
+.myheader {
   background-color: transparent;
   height: 5rem;
   text-align: center;
   font-weight: 500 !important;
 }
 
-.aboutme{
+.aboutme {
   display: flex;
   flex-wrap: wrap;
   background-color: #FAF9F6 !important;
@@ -253,7 +262,7 @@
   z-index: 2;
 }
 
-.card-header{
+.card-header {
   display: flex;
   align-items: center;
   font-size: 1.6rem !important;
@@ -263,37 +272,37 @@
   font-weight: 500;
 }
 
-.card-body{
+.card-body {
   padding: 1rem;
   display: flex;
   flex-direction: column;
 }
 
-.hi-im-jack{
+.hi-im-jack {
   font-weight: 500;
 }
 
-.icon{
+.icon {
   text-align: center;
 }
 
-ul{
+ul {
   list-style-type: none;
   padding-left: 1rem;
   margin: 0;
 }
 
-li{
+li {
   padding-top: 0.9rem;
 }
 
-.hero-img{
+.hero-img {
   object-fit: cover;
   filter: drop-shadow(0.1rem 0.1rem 0.05rem rgba(0, 0, 0, 0.15));
   background-color: rgba(255, 255, 255, 0.15);
 }
 
-.github-button{
+.github-button {
   background-color: rgba(255, 255, 255, 0.9);
   font-size: 1rem;
   /* width: 10.5rem; */
@@ -302,33 +311,33 @@ li{
   transition: all .1s ease-in-out;
 }
 
-.projectcard:hover .github-button{
+.projectcard:hover .github-button {
   opacity: 1 !important;
   transition: all .1s ease-in-out;
 }
 
-.github-button:hover{
+.github-button:hover {
   background-color: rgba(255, 255, 255, 0.8);
   transition: all .1s ease-in-out;
 }
 
-.project-bottom{
+.project-bottom {
   width: 100%;
   min-height: 2.75rem;
 }
 
-.project-info{
+.project-info {
   font-size: 1rem;
   font-weight: 400;
   flex-grow: 1;
   box-sizing: border-box;
 }
 
-.badges{
+.badges {
   flex-wrap: wrap !important;
 }
 
-.badge{
+.badge {
   height: auto;
   width: auto;
   font-size: 0.95rem;
@@ -336,16 +345,16 @@ li{
   background: transparent;
 }
 
-.myfooter{
+.myfooter {
   background-color: #FAF9F6 !important;
 }
 
-.header-img{
+.header-img {
   filter: invert(1);
   height: 3.2rem !important;
 }
 
-.exeter{
+.exeter {
   background-color: #00c896 !important;
   color: #003c3c !important;
   font-weight: 500 !important;
@@ -353,7 +362,7 @@ li{
   border-color: white !important;
 }
 
-.about-me-section{
+.about-me-section {
   background: rgba(0, 0, 0, 0.1);
   width: 75rem;
   margin: 0;
@@ -362,19 +371,19 @@ li{
   height: auto;
 }
 
-.about-me-header{
+.about-me-header {
   width: 100% !important;
   height: 4rem;
   background-color: rgba(30, 30, 30, 0.1);
 }
 
-.about-me-body{
+.about-me-body {
   font-size: 1rem !important;
   width: 100%;
   height: auto;
 }
 
-hr{
+hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-left: auto;
@@ -382,11 +391,11 @@ hr{
   width: 75%;
 }
 
-.footer-text{
+.footer-text {
   width: 50%;
 }
 
-.scroll-button{
+.scroll-button {
   padding: 0;
   color: black;
   background-color: rgba(240, 240, 240, 0.7);
@@ -396,18 +405,19 @@ hr{
   cursor: pointer;
 }
 
-.projects-row{
+.projects-row {
   justify-content: center;
   width: 100%;
   max-width: 100rem !important;
 }
 
-.hidden > *, .hidden button{
+.hidden>*,
+.hidden button {
   opacity: 0;
   cursor: default !important;
 }
 
-.hero-container{
+.hero-container {
   width: 62rem;
   height: auto;
   background-color: rgba(240, 240, 240, 0.7);
@@ -416,7 +426,7 @@ hr{
   animation-timeline: scroll();
 }
 
-li{
+li {
   background-color: transparent !important;
   border: none !important;
   padding-left: 0.25rem !important;
@@ -424,31 +434,31 @@ li{
   border: transparent solid 0.1rem !important;
 }
 
-.skill{
+.skill {
   height: 4rem;
   width: auto;
   overflow: hidden;
   font-weight: 500;
 }
 
-.skill-title{
+.skill-title {
   font-size: 1.2rem;
 }
 
-.skill-img{
+.skill-img {
   filter: invert(1);
 }
 
-.skills-row{
+.skills-row {
   width: 75rem !important;
 }
 
-.email{
+.email {
   font-weight: 400 !important;
 }
 
-@keyframes parallax{
-  to{
+@keyframes parallax {
+  to {
     transform: translateY(25rem);
   }
 }
