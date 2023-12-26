@@ -17,7 +17,7 @@ const App = () => {
   };
 
   return (
-    <div className="App text-dark">
+    <div className="App">
       <Hero scrollToProjects={scrollToProjects} />
       <Projects ref={projectsRef} />
       <Skills />
