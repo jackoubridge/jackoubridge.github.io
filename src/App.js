@@ -4,7 +4,7 @@ import Projects from './components/Projects';
 // import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 
 const App = () => {
 
@@ -18,11 +18,11 @@ const App = () => {
 
   return (
     <div className="App text-dark">
-      <Hero scrollToProjects={scrollToProjects}/>
-      <Projects ref={projectsRef}/>
-      <Skills/>
+      <Hero scrollToProjects={scrollToProjects} />
+      <Projects ref={projectsRef} />
+      <Skills />
       {/* <AboutMe/> */}
-      <Footer/>
+      <Footer />
     </div>
   );
 }
