@@ -33,12 +33,12 @@ const Hero = forwardRef(({ scrollToProjects }, ref) => {
 
           <div className='hero-l m-0 p-3 col-md-6 col-sm-12'>
             <span className='d-block p-2 display-2 w-100 hi-im-jack pt-0'>
-              Hi, I'm Jack
+              Jack Oubridge
             </span>
             <span className='d-block m-0 mb-1 p-2 h5 tagline'>
               Software developer. Tech enthusiast.
             </span>
-            <span className='d-block m-0 mt-1 p-2 h5 pb-0 tagline email'>
+            <span className='d-block m-0 mt-1 p-2 h5 pb-0 email'>
               jaoubridge@gmail.com
             </span>
             <div className='hero-buttons row m-0 p-0 w-100 d-flex'>

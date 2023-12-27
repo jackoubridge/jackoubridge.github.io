@@ -52,7 +52,7 @@
   }
 
   .display-2 {
-    font-size: 4.5rem !important;
+    font-size: 3.75rem !important;
   }
 
   .project {
@@ -67,6 +67,14 @@
 
   li {
     font-size: 1.26rem !important;
+  }
+
+  .tagline {
+    font-size: 1.45rem;
+  }
+
+  .email {
+    font-size: 1.2rem;
   }
 
 }
@@ -151,6 +159,10 @@
     font-size: 1.26rem;
   }
 
+  .email {
+    font-size: 1.2rem;
+  }
+
   .skills-row {
     justify-content: center !important;
   }
@@ -186,6 +198,10 @@
 
   .tagline {
     font-size: 1.084rem;
+  }
+
+  .email {
+    font-size: 1rem;
   }
 
   .hero-l {
