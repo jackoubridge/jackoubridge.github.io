@@ -57,6 +57,7 @@
 
   .project {
     width: 30rem !important;
+    min-height: 15.5rem;
   }
 
   .scroll-button {
