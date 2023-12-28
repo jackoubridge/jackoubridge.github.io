@@ -17,11 +17,11 @@ const Hero = forwardRef(({ scrollToProjects }, ref) => {
 
   return (
     <>
-      <div className='hero p-3 container-fluid d-flex justify-content-center'>
+      <div className='hero position-relative p-3 container-fluid d-flex justify-content-center'>
 
         <video
           ref={videoRef}
-          className='background-video'
+          className='background-video w-100 h-100'
           id='background-video'
           onCanPlay={() => setPlayback()}
           poster={posterImg}
@@ -32,7 +32,7 @@ const Hero = forwardRef(({ scrollToProjects }, ref) => {
         <div className='hero-container row rounded my-auto'>
 
           <div className='hero-l m-0 p-3 col-md-6 col-sm-12'>
-            <span className='d-block p-2 display-2 w-100 hi-im-jack pt-0'>
+            <span className='d-block p-2 display-2 w-100 hero-title pt-0'>
               Jack Oubridge
             </span>
             <span className='d-block m-0 mb-1 p-2 h5 tagline'>
@@ -45,16 +45,16 @@ const Hero = forwardRef(({ scrollToProjects }, ref) => {
               <button
                 type="button"
                 onClick={() => handleClick('https://www.linkedin.com/in/jackoubridge')}
-                className="hero-button external-button m-2 btn btn-lg border border-black text-black align-middle d-flex justify-content-between align-items-center">
+                className="hero-button m-2 btn btn-lg border">
                 <span className='my-auto p-0 pe-2'>Linkedin </span>
-                <span className="icon p-0 material-symbols-outlined">captive_portal</span>
+                <span className="icon material-symbols-outlined">captive_portal</span>
               </button>
               <button
                 type="button"
                 onClick={() => handleClick('https://www.github.com/jackoubridge')}
-                className="hero-button external-button m-2 btn btn-lg border border-black text-black align-middle d-flex justify-content-between align-items-center">
+                className="hero-button m-2 btn btn-lg border">
                 <span className='my-auto p-0 pe-2'>Github</span>
-                <span className="icon p-0 material-symbols-outlined">captive_portal</span>
+                <span className="icon material-symbols-outlined">captive_portal</span>
               </button>
             </div>
           </div>
