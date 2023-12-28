@@ -4,6 +4,11 @@ import Fade from 'react-reveal/Fade';
 
 const Project = (props) => {
 
+  const urlPrefix = "https://cdn-icons-png.flaticon.com/128/"
+  const urlSuffix = ".png";
+
+  const imgLink = urlPrefix + props.imgLink + urlSuffix;
+
   const langs = props.langs.split(', ');
   const list = []
 
@@ -18,7 +23,7 @@ const Project = (props) => {
           <div className='card shadow-sm projectcard w-100 h-100' style={{ backgroundColor: props.color }}>
             <div className='card-header justify-content-between w-100 user-select-none ps-3 pe-3 pt-1 pb-1 d-flex align-items-center'>
               {props.title}
-              <img src={props.imglink} loading="lazy" className='header-img m-0 mt-1 mb-1 p-0' alt=""></img>
+              <img src={imgLink} loading="lazy" className='header-img m-0 mt-1 mb-1 p-0' alt=""></img>
             </div>
             <div className='card-body pb-0 w-100 d-flex'>
               <span className='project-info d-flex user-select-none w-100 p-0 pb-2'>

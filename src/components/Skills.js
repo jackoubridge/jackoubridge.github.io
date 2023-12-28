@@ -9,33 +9,33 @@ const Skills = (props) => {
         <div className='row w-auto d-flex m-0 p-0 skills-row justify-content-between'>
           <Header title="Jack of All Trades" />
 
-          <Skill title="Software Development" imageLink="https://cdn-icons-png.flaticon.com/512/3573/3573187.png" />
-          <Skill title="Git / Source Control" imageLink="https://cdn-icons-png.flaticon.com/512/1240/1240970.png" />
-          <Skill title="Debugging" imageLink="https://cdn-icons-png.flaticon.com/512/1541/1541504.png" />
-          <Skill title="Testing" imageLink="https://cdn-icons-png.flaticon.com/512/3281/3281188.png" />
-          <Skill title="OOP" imageLink="https://cdn-icons-png.flaticon.com/512/8093/8093354.png" />
-          <Skill title="CLIs" imageLink="https://cdn-icons-png.flaticon.com/512/10396/10396813.png" />
-          <Skill title="Databases" imageLink="https://cdn-icons-png.flaticon.com/512/1602/1602309.png" />
-          <Skill title="Networking" imageLink="https://cdn-icons-png.flaticon.com/512/900/900334.png" />
-          <Skill title="Data Structures" imageLink="https://cdn-icons-png.flaticon.com/512/4699/4699844.png" />
-          <Skill title="Algorithms" imageLink="https://cdn-icons-png.flaticon.com/512/1471/1471299.png" />
-          <Skill title="Data Analysis" imageLink="https://cdn-icons-png.flaticon.com/512/2329/2329087.png" />
-          <Skill title="Cloud Computing" imageLink="https://cdn-icons-png.flaticon.com/512/565/565190.png" />
-          <Skill title="Front-end Development" imageLink="https://cdn-icons-png.flaticon.com/512/781/781683.png" />
-          <Skill title="IDEs" imageLink="https://cdn-icons-png.flaticon.com/512/11676/11676341.png" />
-          <Skill title="AI" imageLink="https://cdn-icons-png.flaticon.com/512/9716/9716599.png" />
-          <Skill title="Security" imageLink="https://cdn-icons-png.flaticon.com/512/1746/1746650.png" />
-          <Skill title="Hardware" imageLink="https://cdn-icons-png.flaticon.com/512/1566/1566210.png" />
-          <Skill title="Mathematics" imageLink="https://cdn-icons-png.flaticon.com/512/3320/3320938.png" />
-          <Skill title="Problem Solving" imageLink="https://cdn-icons-png.flaticon.com/512/2896/2896405.png" />
-          <Skill title="Project Management" imageLink="https://cdn-icons-png.flaticon.com/512/3286/3286768.png" />
-          <Skill title="Teamwork" imageLink="https://cdn-icons-png.flaticon.com/512/2352/2352167.png" />
-          <Skill title="Designing" imageLink="https://cdn-icons-png.flaticon.com/512/681/681662.png" />
-          <Skill title="Video Editing" imageLink="https://cdn-icons-png.flaticon.com/512/5243/5243771.png" />
-          <Skill title="Image Editing" imageLink="https://cdn-icons-png.flaticon.com/512/4623/4623252.png" />
-          <Skill title="Content Creation" imageLink="https://cdn-icons-png.flaticon.com/512/4520/4520915.png" />
-          <Skill title="Music Production" imageLink="https://cdn-icons-png.flaticon.com/512/3039/3039404.png" />
-          <Skill title="Spreadsheets" imageLink="https://cdn-icons-png.flaticon.com/512/9935/9935375.png" />
+          <Skill title="Software Development" imgLink="3573/3573187" />
+          <Skill title="Git / Source Control" imgLink="1240/1240970" />
+          <Skill title="Debugging" imgLink="1541/1541504" />
+          <Skill title="Testing" imgLink="3281/3281188" />
+          <Skill title="OOP" imgLink="8093/8093354" />
+          <Skill title="CLIs" imgLink="10396/10396813" />
+          <Skill title="Databases" imgLink="1602/1602309" />
+          <Skill title="Networking" imgLink="900/900334" />
+          <Skill title="Data Structures" imgLink="4699/4699844" />
+          <Skill title="Algorithms" imgLink="1471/1471299" />
+          <Skill title="Data Analysis" imgLink="2329/2329087" />
+          <Skill title="Cloud Computing" imgLink="565/565190" />
+          <Skill title="Front-end Development" imgLink="781/781683" />
+          <Skill title="IDEs" imgLink="11676/11676341" />
+          <Skill title="AI" imgLink="9716/9716599" />
+          <Skill title="Security" imgLink="1746/1746650" />
+          <Skill title="Hardware" imgLink="1566/1566210" />
+          <Skill title="Mathematics" imgLink="3320/3320938" />
+          <Skill title="Problem Solving" imgLink="2896/2896405" />
+          <Skill title="Project Management" imgLink="3286/3286768" />
+          <Skill title="Teamwork" imgLink="2352/2352167" />
+          <Skill title="Designing" imgLink="681/681662" />
+          <Skill title="Video Editing" imgLink="5243/5243771" />
+          <Skill title="Image Editing" imgLink="4623/4623252" />
+          <Skill title="Content Creation" imgLink="4520/4520915" />
+          <Skill title="Music Production" imgLink="3039/3039404" />
+          <Skill title="Spreadsheets" imgLink="9935/9935375" />
         </div>
       </div>
     </>
