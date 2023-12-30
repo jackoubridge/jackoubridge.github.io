@@ -11,6 +11,15 @@ const Projects = forwardRef((props, ref) => {
         <div className='row w-auto d-flex m-0 p-0 projects-row'>
           <Header title="My Projects" />
           <Project
+            title='Jiggz.net'
+            type='Site'
+            url='https://jiggz.net'
+            color='#3234a8'
+            langs="JavaScript, Node.JS, Cloud Computing"
+            imgLink='1925/1925065'
+            text="A system of services that come together to form Jiggz.net. Includes a Minecraft server hosted by Google Cloud and a supporting Node.JS app that fetches the server's live telemetry."
+          />
+          <Project
             title='3D Graphics Engine'
             type="Repository"
             url='PyOpenGL'
