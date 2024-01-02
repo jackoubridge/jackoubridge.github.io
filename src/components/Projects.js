@@ -15,7 +15,7 @@ const Projects = forwardRef((props, ref) => {
             type='Site'
             url='https://jiggz.net'
             color='#3234a8'
-            langs="JavaScript, Node.JS, Cloud Computing"
+            langs="JavaScript, Node.js, Cloud Computing"
             imgLink='1925/1925065'
             text="A system of services that come together to form Jiggz.net. Includes a Minecraft server hosted by Google Cloud and a supporting Node.JS app that fetches the server's live telemetry."
           />
@@ -83,13 +83,13 @@ const Projects = forwardRef((props, ref) => {
             text="This implementation of a famous problem-solving method uses genetic mutation and crossover to find the best Sudoku board given a random starting population."
           />
           <Project
-            title='Portfolio ReactJS App'
+            title='Portfolio React.js App'
             type="Repository"
             url='jackoubridge.github.io'
             color='FireBrick'
-            langs='JavaScript'
+            langs='JavaScript, React.js'
             imgLink='12630/12630918'
-            text='This very site... how meta. Uses ReactJS and Bootstrap to achieve a useful and visually stunning site. Featured in this app is a card that reads "This very site... how meta. Uses ReactJS and Bootstrap to achieve a useful and visually stunning site. Featured in this app is a card tha-'
+            text='This very site... how meta. Uses React.js and Bootstrap to achieve a useful and visually stunning site. Featured in this app is a card that reads "This very site... how meta. Uses React.js and Bootstrap to achieve a useful and visually stunning site. Featured in this app is a card tha-'
           />
         </div>
       </div>
