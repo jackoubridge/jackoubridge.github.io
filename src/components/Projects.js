@@ -83,13 +83,13 @@ const Projects = forwardRef((props, ref) => {
             text="This implementation of a famous problem-solving method uses genetic mutation and crossover to find the best Sudoku board given a random starting population."
           />
           <Project
-            title='Portfolio React.js App'
+            title='Portfolio React App'
             type="Repository"
             url='jackoubridge.github.io'
             color='FireBrick'
             langs='JavaScript, React.js'
             imgLink='12630/12630918'
-            text='This very site... how meta. Uses React.js and Bootstrap to achieve a useful and visually stunning site. Featured in this app is a card that reads "This very site... how meta. Uses React.js and Bootstrap to achieve a useful and visually stunning site. Featured in this app is a card tha-'
+            text='This very site... how meta. Uses React and Bootstrap to achieve a useful and visually stunning site. Featured in this app is a card that reads "This very site... how meta. Uses React and Bootstrap to achieve a useful and visually stunning site. Featured in this app is a card tha-'
           />
         </div>
       </div>
