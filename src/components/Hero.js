@@ -29,7 +29,7 @@ const Hero = forwardRef(({ scrollToProjects }, ref) => {
           <source src={videoFile} type='video/mp4' />
         </video>
 
-        <div className='hero-container rounded my-auto p-4'>
+        <div className='hero-container rounded my-auto'>
           <div className='hero-img-container d-flex justify-content-center w-100'>
             <img className='hero-img rounded-circle h-100' src={heroImg} alt="me!"></img>
           </div>
