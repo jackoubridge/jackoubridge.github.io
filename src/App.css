@@ -10,6 +10,7 @@
   min-height: 100svh;
   overflow-y: visible;
   color: var(--primary-dark);
+  padding-bottom: 10rem !important;
 }
 
 .rounded {
@@ -24,19 +25,43 @@
   filter: brightness(0.8);
 }
 
-.hero-button {
-  display: flex;
-  width: 7.55rem;
-  height: 2.5rem !important;
-  padding: 0.2rem !important;
-  font-size: 1.15rem;
+.hero-img-container {
+  height: 12rem;
+}
+
+.hero-img {
+  border: solid 0.1rem var(--primary-dark);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.hero-heading-primary {
+  font-size: 2.75rem;
+  font-weight: 600;
+  color: var(--primary-dark);
+}
+
+.hero-heading-secondary {
+  font-size: 1.4rem;
   font-weight: 400;
-  position: relative;
-  background: transparent !important;
-  border-color: var(--primary-dark) !important;
-  overflow: hidden !important;
+  color: rgb(50, 50, 50);
+  text-wrap: balance;
+}
+
+.hero-button {
+  padding: 0;
+  height: 3rem;
+  display: flex;
   justify-content: space-around;
-  align-items: center;
+  background-color: transparent;
+  width: 8.8rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  border: solid 0.075rem var(--primary-dark);
+  color: var(--primary-dark);
+}
+
+.icon {
+  font-size: 1.6rem;
 }
 
 .hero-button:hover {
@@ -80,29 +105,9 @@
   flex-direction: column;
 }
 
-.hero-title {
-  font-weight: 500;
-}
-
 .icon {
   text-align: center;
   padding: 0;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 1rem;
-  margin: 0;
-}
-
-li {
-  padding-top: 0.9rem;
-}
-
-.hero-img {
-  object-fit: cover;
-  filter: drop-shadow(0.1rem 0.1rem 0.05rem rgba(0, 0, 0, 0.15));
-  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .github-button {
@@ -189,19 +194,11 @@ li {
 }
 
 .hero-container {
-  width: 62rem;
+  width: 35rem;
   background-color: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(0.6rem);
+  backdrop-filter: blur(0.75rem);
   animation: parallaxanim linear;
   animation-timeline: scroll() !important;
-}
-
-li {
-  background-color: transparent !important;
-  border: none !important;
-  padding-left: 0.25rem !important;
-  padding-right: 0.25rem !important;
-  border: transparent solid 0.1rem !important;
 }
 
 .skill {
@@ -223,51 +220,23 @@ li {
   width: 75rem !important;
 }
 
-.email {
-  font-weight: 400 !important;
-}
-
 @keyframes parallaxanim {
   0% {
     transform: translateY(0rem);
-    filter: blur(0);
+    filter: brightness(100%);
   }
 
   100% {
-    transform: translateY(25rem);
-    filter: blur(0.1rem);
+    transform: translateY(15rem);
+    filter: brightness(50%);
   }
 }
 
 @media screen and (min-width: 1020px) {
   /* larger breakpoint */
 
-  .hero {
-    padding-bottom: 15rem !important;
-  }
-
-  .hero-l {
-    height: 16rem !important;
-    text-align: left;
-  }
-
-  .hero-r {
-    height: 16rem !important;
-    padding-left: 0 !important;
-  }
-
-  .col-md-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-
   .myheader {
     font-size: 3rem;
-  }
-
-  .display-2 {
-    font-size: 3.75rem !important;
   }
 
   .project {
@@ -279,55 +248,10 @@ li {
     bottom: 5rem;
     font-size: 3.5rem;
   }
-
-  li {
-    font-size: 1.26rem !important;
-  }
-
-  .tagline {
-    font-size: 1.45rem;
-  }
-
-  .email {
-    font-size: 1.2rem;
-  }
-
 }
 
 @media screen and (max-width: 1019px) {
   /* smaller breakpoint */
-
-  .hero {
-    padding-bottom: 10rem !important;
-  }
-
-  .hero-container {
-    max-width: 40rem;
-  }
-
-  .hero-l {
-    text-align: center;
-  }
-
-  .hero-r {
-    height: 15rem !important;
-  }
-
-  .col-sm-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  .col-sm-8 {
-    flex: 0 0 auto;
-    width: 66.66666667%;
-  }
-
-  .col-sm-4 {
-    flex: 0 0 auto;
-    width: 33.33333333%;
-  }
 
   .projectcard {
     margin-left: 0;
@@ -336,14 +260,6 @@ li {
 
   .myheader {
     font-size: 2.5rem;
-  }
-
-  .display-2 {
-    font-size: 3.05rem !important;
-  }
-
-  .hero-buttons {
-    justify-content: center;
   }
 
   .projects-row {
@@ -358,18 +274,6 @@ li {
   .scroll-button {
     bottom: 5rem;
     font-size: 3rem;
-  }
-
-  li {
-    font-size: 1.15rem !important;
-  }
-
-  .tagline {
-    font-size: 1.26rem;
-  }
-
-  .email {
-    font-size: 1.2rem;
   }
 
   .skills-row {
@@ -390,45 +294,6 @@ li {
 
   .footer-text {
     font-size: 0.9rem !important;
-  }
-
-  ul {
-    padding-left: 0.25rem !important;
-  }
-
-  li {
-    font-size: 1.09rem !important;
-  }
-
-  .hero-buttons,
-  .tagline {
-    margin: 0 !important;
-  }
-
-  .tagline {
-    font-size: 1.084rem;
-  }
-
-  .email {
-    font-size: 1rem;
-  }
-
-  .hero-l {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-
-  .hero-r {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-
-  .imgcol {
-    display: none !important;
-  }
-
-  .mylist {
-    width: 100% !important;
   }
 
   .skill {

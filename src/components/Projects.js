@@ -60,7 +60,7 @@ const Projects = forwardRef((props, ref) => {
             type="Repository"
             url='unity-project'
             color='#d16a0a'
-            langs='C++'
+            langs='C++, Unity'
             imgLink='686/686589'
             text='A first-person shooter Unity project, featuring a robust character controller, realistic physics and ray casting.'
           />
@@ -87,7 +87,7 @@ const Projects = forwardRef((props, ref) => {
             type="Repository"
             url='jackoubridge.github.io'
             color='FireBrick'
-            langs='JavaScript, React.js'
+            langs='JavaScript, React'
             imgLink='12630/12630918'
             text='This very site... how meta. Uses React and Bootstrap to achieve a useful and visually stunning site. Featured in this app is a card that reads "This very site... how meta. Uses React and Bootstrap to achieve a useful and visually stunning site. Featured in this app is a card tha-'
           />

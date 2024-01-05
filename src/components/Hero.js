@@ -1,6 +1,6 @@
 import videoFile from '../assets/videoplayback.mp4';
 import posterImg from '../assets/poster.jpg';
-import mugshot from '../assets/mugshot.png';
+import heroImg from '../assets/mugshot.png'
 import { forwardRef, useRef } from 'react';
 
 const Hero = forwardRef(({ scrollToProjects }, ref) => {
@@ -10,10 +10,10 @@ const Hero = forwardRef(({ scrollToProjects }, ref) => {
     videoRef.current.playbackRate = 1;
   }
 
-  function handleClick(link) {
-    console.log('Clicked ' + link);
-    window.open(link, '_blank').focus();
-  }
+  // function handleClick(link) {
+  //   console.log('Clicked ' + link);
+  //   window.open(link, '_blank').focus();
+  // }
 
   return (
     <>
@@ -29,49 +29,19 @@ const Hero = forwardRef(({ scrollToProjects }, ref) => {
           <source src={videoFile} type='video/mp4' />
         </video>
 
-        <div className='hero-container row rounded my-auto'>
-
-          <div className='hero-l m-0 p-3 col-md-6 col-sm-12'>
-            <span className='d-block p-2 display-2 w-100 hero-title pt-0'>
-              Jack Oubridge
-            </span>
-            <span className='d-block m-0 mb-1 p-2 h5 tagline'>
-              Software developer. Tech enthusiast.
-            </span>
-            <span className='d-block m-0 mt-1 p-2 h5 pb-0 email'>
-              jaoubridge@gmail.com
-            </span>
-            <div className='hero-buttons row m-0 p-0 w-100 d-flex'>
-              <button
-                type="button"
-                onClick={() => handleClick('https://www.linkedin.com/in/jackoubridge')}
-                className="hero-button m-2 btn btn-lg border">
-                <span className='my-auto p-0 pe-2'>Linkedin </span>
-                <span className="icon material-symbols-outlined">captive_portal</span>
-              </button>
-              <button
-                type="button"
-                onClick={() => handleClick('https://www.github.com/jackoubridge')}
-                className="hero-button m-2 btn btn-lg border">
-                <span className='my-auto p-0 pe-2'>Github</span>
-                <span className="icon material-symbols-outlined">captive_portal</span>
-              </button>
-            </div>
+        <div className='hero-container rounded my-auto p-4'>
+          <div className='hero-img-container d-flex justify-content-center w-100'>
+            <img className='hero-img rounded-circle h-100' src={heroImg} alt="me!"></img>
+          </div>
+          <div className='hero-heading-container w-100 mb-4'>
+            <span className='hero-heading-primary d-block w-100 text-center'>Jack Oubridge</span>
+            <span className='hero-heading-secondary d-block w-100 text-center'>Software Developer. Tech Enthusiast.</span>
+          </div>
+          <div className='hero-buttons-container d-flex justify-content-center w-100'>
+            <a href="https://linkedin.com/in/jackoubridge" target='_blank' rel='noreferrer' class="rounded btn btn-dark me-2 hero-button text-dark d-flex"><span class="my-auto">LinkedIn</span><span class="icon material-symbols-outlined p-0 my-auto">captive_portal</span></a>
+            <a href="https://github.com/jackoubridge" target='_blank' rel='noreferrer' class="rounded btn btn-dark me-2 hero-button text-dark d-flex"><span class="my-auto">Github</span><span class="icon material-symbols-outlined p-0 my-auto">captive_portal</span></a>
           </div>
 
-          <div className='hero-r row m-0 p-3 col-md-6 col-sm-12'>
-            <div className='col-md-4 col-sm-4 m-0 p-0 imgcol d-flex justify-content-center'>
-              <img className='hero-img my-auto w-100 h-100 rounded' loading='lazy' src={mugshot} alt=""></img>
-            </div>
-            <div className='col-md-8 col-sm-8 m-0 p-0 ps-2 d-flex justify-content-center mylist'>
-              <ul className="list-group ps-0 pe-0 my-auto">
-                <li className="list-group-item exeter">University of Exeter Graduate</li>
-                <li className="list-group-item">- Persistent Learner</li>
-                <li className="list-group-item">- Passionate Programmer</li>
-                <li className="list-group-item">- Solution Architect</li>
-              </ul>
-            </div>
-          </div>
         </div>
 
         <span onClick={scrollToProjects} className="user-select-none position-absolute scroll-button material-symbols-outlined">expand_circle_down</span>
