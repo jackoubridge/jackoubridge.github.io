@@ -15,6 +15,14 @@ const App = () => {
     }
   };
 
+  /* 
+  My Render Node.js app spins down with inactivity
+  Sending a request to wake it up so that loading times are shorter for real users
+  */
+  fetch("https://jiggz.net", { mode: 'no-cors', })
+    .then(response => { })
+    .catch(error => { });
+
   return (
     <div className="App">
       <Hero scrollToProjects={scrollToProjects} />
