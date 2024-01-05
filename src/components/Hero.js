@@ -10,11 +10,6 @@ const Hero = forwardRef(({ scrollToProjects }, ref) => {
     videoRef.current.playbackRate = 1;
   }
 
-  // function handleClick(link) {
-  //   console.log('Clicked ' + link);
-  //   window.open(link, '_blank').focus();
-  // }
-
   return (
     <>
       <div className='hero position-relative p-3 container-fluid d-flex justify-content-center'>
@@ -38,8 +33,8 @@ const Hero = forwardRef(({ scrollToProjects }, ref) => {
             <span className='hero-heading-secondary d-block w-100 text-center'>Software Developer. Tech Enthusiast.</span>
           </div>
           <div className='hero-buttons-container d-flex justify-content-center w-100'>
-            <a href="https://linkedin.com/in/jackoubridge" target='_blank' rel='noreferrer' class="rounded btn btn-dark me-2 hero-button text-dark d-flex"><span class="my-auto">LinkedIn</span><span class="icon material-symbols-outlined p-0 my-auto">captive_portal</span></a>
-            <a href="https://github.com/jackoubridge" target='_blank' rel='noreferrer' class="rounded btn btn-dark me-2 hero-button text-dark d-flex"><span class="my-auto">GitHub</span><span class="icon material-symbols-outlined p-0 my-auto">captive_portal</span></a>
+            <a href="https://linkedin.com/in/jackoubridge" target='_blank' rel='noreferrer' className="rounded btn btn-dark me-2 hero-button text-dark d-flex"><span className="my-auto">LinkedIn</span><span className="icon material-symbols-outlined p-0 my-auto">captive_portal</span></a>
+            <a href="https://github.com/jackoubridge" target='_blank' rel='noreferrer' className="rounded btn btn-dark me-2 hero-button text-dark d-flex"><span className="my-auto">GitHub</span><span className="icon material-symbols-outlined p-0 my-auto">captive_portal</span></a>
           </div>
 
         </div>
