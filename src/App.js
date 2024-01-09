@@ -26,9 +26,11 @@ const App = () => {
   return (
     <div className="App">
       <Hero scrollToProjects={scrollToProjects} />
-      <Projects ref={projectsRef} />
-      <Skills />
-      <Footer />
+      <div className='content m-0 p-0 w-100 h-auto rounded'>
+        <Projects ref={projectsRef} />
+        <Skills />
+        <Footer />
+      </div>
     </div>
   );
 }
