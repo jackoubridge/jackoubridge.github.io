@@ -24,7 +24,7 @@ const Projects = forwardRef((props, ref) => {
             type="Repository"
             url='PyOpenGL'
             color='Crimson'
-            langs="GLSL, Python"
+            langs="OpenGL, GLSL, Python"
             imgLink='9417/9417368'
             text='A visually immersive jungle scene created with PyOpenGL. This project includes local illumination, shadow mapping, texture mapping, and OBJ file loading for a captivating virtual experience.'
           />
@@ -35,7 +35,7 @@ const Projects = forwardRef((props, ref) => {
             color='#015c5c'
             langs='Go'
             imgLink='9673/9673387'
-            text="Shazam-like system using microservices. Employs a RESTful API to identify songs from audio fragments, comparing them with a database and determining the played song from a snippet."
+            text="Shazam clone using microservices. Employs a RESTful API to identify songs from audio fragments, comparing them with a database and determining the played song from a snippet."
           />
           <Project
             title='Internet of Things'
@@ -51,7 +51,7 @@ const Projects = forwardRef((props, ref) => {
             type="Repository"
             url='Flask-App'
             color='MidnightBlue'
-            langs='JavaScript, Python'
+            langs='Flask, SQL, Python'
             imgLink='1336/1336494'
             text="Using SQLAlchemy and Socket.IO, this full-stack Flask app supports a database of users (via Steam login) and real-time simulation gambling. This was my first endeavour into the world of ReactJS and Bootstrap."
           />

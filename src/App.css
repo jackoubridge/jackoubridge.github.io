@@ -2,14 +2,14 @@
   --primary-dark: #212529;
   --text-light: rgb(250, 250, 250);
   --background-light: #f0f0f0;
+  --background-dark-primary: #21252b;
+
   background-color: var(--background-light);
 }
 
 .hero {
   min-height: 100vh;
   min-height: 100svh;
-  overflow-y: visible;
-  color: var(--primary-dark);
   padding-bottom: 10rem !important;
 }
 
@@ -22,7 +22,7 @@
   top: 0;
   left: 0;
   object-fit: cover;
-  filter: brightness(0.8);
+  filter: brightness(0.4);
 }
 
 .hero-img-container {
@@ -30,20 +30,20 @@
 }
 
 .hero-img {
-  border: solid 0.1rem var(--primary-dark);
-  background-color: rgba(255, 255, 255, 0.2);
+  border: solid 0.1rem var(--text-light);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .hero-heading-primary {
   font-size: 2.75rem;
   font-weight: 600;
-  color: var(--primary-dark);
+  color: var(--text-light);
 }
 
 .hero-heading-secondary {
   font-size: 1.4rem;
   font-weight: 400;
-  color: rgb(50, 50, 50);
+  color: rgb(210, 210, 210);
   text-wrap: balance;
 }
 
@@ -56,8 +56,11 @@
   width: 8.8rem;
   font-size: 1.3rem;
   font-weight: 400;
-  border: solid 0.075rem var(--primary-dark);
-  color: var(--primary-dark);
+  border: solid 0.075rem var(--text-light);
+}
+
+.hero-button>* {
+  color: var(--text-light);
 }
 
 .icon {
@@ -65,13 +68,15 @@
 }
 
 .hero-button:hover {
-  background-color: rgba(255, 255, 255, 0.5) !important;
+  border: solid 0.075rem var(--text-light);
+  background-color: rgba(255, 255, 255, 0.3) !important;
   transition: all .1s ease-in-out;
 }
 
 .projects,
 .skills {
-  background-color: var(--background-light);
+  /* background-color: var(--background-light); */
+  background-color: var(--background-dark-primary) !important;
   position: relative;
   background-size: cover;
   display: flex;
@@ -90,7 +95,7 @@
   background-color: transparent;
   height: 5rem;
   font-weight: 500 !important;
-  color: var(--primary-dark);
+  color: var(--text-light);
 }
 
 .card-header {
@@ -151,25 +156,17 @@
 }
 
 .myfooter {
-  background-color: var(--background-light) !important;
+  background-color: var(--background-dark-primary);
 }
 
 .myfooter>*,
 .footer-text>* {
-  color: var(--primary-dark);
+  color: var(--text-light);
 }
 
 .header-img {
   filter: invert(1);
   height: 3.2rem !important;
-}
-
-.exeter {
-  background-color: #00c896 !important;
-  color: #003c3c !important;
-  font-weight: 500 !important;
-  border-radius: 0.5rem !important;
-  border-color: var(--background-light) !important;
 }
 
 .footer-text {
@@ -179,8 +176,7 @@
 
 .scroll-button {
   padding: 0;
-  color: var(--primary-dark);
-  background-color: rgba(240, 240, 240, 0.7);
+  color: var(--text-light);
   backdrop-filter: blur(1rem);
   border-radius: 2rem;
   z-index: 10 !important;
@@ -195,8 +191,7 @@
 
 .hero-container {
   width: 35rem;
-  background-color: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(0.75rem);
+  background: none;
   animation: parallaxanim linear;
   animation-timeline: scroll() !important;
 }
@@ -204,8 +199,9 @@
 .skill {
   height: 4rem;
   font-weight: 500;
-  background-color: var(--primary-dark);
+  background-color: #131518;
   color: var(--text-light);
+  border: solid 0.075rem var(--text-light);
 }
 
 .skill-title {
@@ -217,18 +213,16 @@
 }
 
 .skills-row {
-  width: 75rem !important;
+  width: 76rem !important;
 }
 
 @keyframes parallaxanim {
   0% {
     transform: translateY(0rem);
-    filter: brightness(100%);
   }
 
   100% {
     transform: translateY(15rem);
-    filter: brightness(50%);
   }
 }
 
@@ -277,7 +271,7 @@
 
   .scroll-button {
     bottom: 5rem;
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   .skills-row {
