@@ -28,7 +28,7 @@ const Hero = forwardRef(({ scrollToProjects }, ref) => {
           <div className='hero-img-container d-flex justify-content-center w-100'>
             <img className='hero-img rounded-circle h-100' src={heroImg} alt="me!"></img>
           </div>
-          <div className='hero-heading-container w-100 mb-4'>
+          <div className='hero-heading-container w-100 pb-4'>
             <span className='hero-heading-primary d-block w-100 text-center'>Jack Oubridge</span>
             <span className='hero-heading-secondary d-block w-100 text-center'>Software Developer. Tech Enthusiast.</span>
           </div>
