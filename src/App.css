@@ -3,6 +3,7 @@
   --text-light: rgb(250, 250, 250);
   --background-light: #f0f0f0;
   --background-dark-primary: #21252b;
+  --background-dark-secondary: #131518;
 
   background-color: var(--background-light);
 }
@@ -199,7 +200,7 @@
 .skill {
   height: 4rem;
   font-weight: 500;
-  background-color: #131518;
+  background-color: var(--background-dark-secondary);
   color: var(--text-light);
   border: solid 0.075rem var(--text-light);
 }

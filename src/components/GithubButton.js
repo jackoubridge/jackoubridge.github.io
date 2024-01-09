@@ -6,20 +6,17 @@ const GitHubButton = (props) => {
     link = 'https://github.com/jackoubridge/' + props.url;
   }
 
-
-  function handleClick() {
-    window.open(link, '_blank').focus();
-  }
-
   return (
     <>
-      <button
+      <a
         type='button'
-        onClick={handleClick}
+        href={link}
+        target="_blank"
+        rel="noreferrer"
         className='github-button m-0 p-1 btn btn-light btn-lg align-middle d-flex justify-content-between align-items-center my-auto' title={link}>
         <span className='p-0 visit-text pe-1'>Visit {props.type}</span>
         <span className="icon p-0 material-symbols-outlined">captive_portal</span>
-      </button>
+      </a>
     </>
   )
 }
