@@ -2,6 +2,7 @@ import Hero from '../components/Hero'
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 import Footer from '../components/Footer';
+import AboutMe from '../components/Aboutme';
 import { useRef } from 'react';
 
 const Home = () => {
@@ -28,6 +29,7 @@ const Home = () => {
             <div className='content m-0 p-0 w-100 h-auto rounded'>
                 <Projects ref={projectsRef} />
                 <Skills />
+                <AboutMe />
                 <Footer />
             </div>
         </div>
