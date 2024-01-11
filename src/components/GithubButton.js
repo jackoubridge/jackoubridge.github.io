@@ -25,7 +25,7 @@ function GitHubButtonIcon(props) {
   if (props.type === 'Repository') {
     return (
       <>
-        <span className="icon p-0 fa-brands fa-github ms-1"></span>
+        <span className="icon p-0 fa-brands fa-github ms-md-1"></span>
 
       </>
     );

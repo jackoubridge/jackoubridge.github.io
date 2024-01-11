@@ -5,7 +5,6 @@ const Skills = (props) => {
   return (
     <>
       <div className='p-3 container-fluid skills mb-3 z-1'>
-
         <div className='row w-auto d-flex m-0 p-0 skills-row justify-content-between'>
           <Header title="Jack of All Trades" />
 

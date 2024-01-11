@@ -87,7 +87,7 @@ const Projects = forwardRef((props, ref) => {
             type="Repository"
             url='jackoubridge.github.io'
             color='FireBrick'
-            langs='JavaScript, React'
+            langs='JavaScript, ReactJS'
             imgLink='12630/12630918'
             text='This very site... how meta. Uses React and Bootstrap to achieve a useful and visually stunning site. Featured in this app is a card that reads "This very site... how meta. Uses React and Bootstrap to achieve a useful and visually stunning site. Featured in this app is a card tha-'
           />
