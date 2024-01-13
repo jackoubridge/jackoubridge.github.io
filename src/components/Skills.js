@@ -21,6 +21,7 @@ const Skills = (props) => {
           <Skill title="Data Analysis" imgLink="2329/2329087" />
           <Skill title="Cloud Computing" imgLink="565/565190" />
           <Skill title="Front-end Development" imgLink="781/781683" />
+          <Skill title="IoT" imgLink="4388/4388026" />
           <Skill title="IDEs" imgLink="11676/11676341" />
           <Skill title="AI" imgLink="9716/9716599" />
           <Skill title="Security" imgLink="1746/1746650" />
@@ -34,7 +35,6 @@ const Skills = (props) => {
           <Skill title="Image Editing" imgLink="4623/4623252" />
           <Skill title="Content Creation" imgLink="4520/4520915" />
           <Skill title="Music Production" imgLink="3039/3039404" />
-          <Skill title="Spreadsheets" imgLink="9935/9935375" />
         </div>
       </div>
     </>

@@ -33,7 +33,7 @@ const Projects = forwardRef((props, ref) => {
             type="Repository"
             url='Microservices'
             color='#015c5c'
-            langs='Go'
+            langs='Go, API'
             imgLink='9673/9673387'
             text="Shazam clone using microservices. Employs a RESTful API to identify songs from audio fragments, comparing them with a database and determining the played song from a snippet."
           />
@@ -42,7 +42,7 @@ const Projects = forwardRef((props, ref) => {
             type="Repository"
             url="IoT"
             color="#2e2e2e"
-            langs="C++, Hardware"
+            langs="C++, Hardware, IoT"
             imgLink="4673/4673990"
             text="DIY web server that allows clients on the local network to communicate wirelessly with the Wi-Fi module and change the colour of an LED. Firmware written in Arduino IDE, hardware secured with elastic bands."
           />
@@ -60,7 +60,7 @@ const Projects = forwardRef((props, ref) => {
             type="Repository"
             url='unity-project'
             color='#d16a0a'
-            langs='C++, Unity'
+            langs='C#, Unity'
             imgLink='686/686589'
             text='A first-person shooter Unity project, featuring a robust character controller, realistic physics and ray casting.'
           />
@@ -69,7 +69,7 @@ const Projects = forwardRef((props, ref) => {
             type="Repository"
             url='Ant-Colony-Optimisation-Travelling-Salesman'
             color='ForestGreen'
-            langs='Python'
+            langs='Python, AI'
             imgLink='2103/2103620'
             text="A nature-inspired application that tackles the Travelling Salesman problem. Using pheromones, randomness and a thousand iterations, the power of the colony finds the best fitness."
           />
@@ -78,7 +78,7 @@ const Projects = forwardRef((props, ref) => {
             type="Repository"
             url='Sudoku-EA'
             color='#6f52ab'
-            langs='Python'
+            langs='Python, AI'
             imgLink='11918/11918995'
             text="This implementation of a famous problem-solving method uses genetic mutation and crossover to find the best Sudoku board given a random starting population."
           />
