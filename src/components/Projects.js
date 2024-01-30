@@ -33,7 +33,7 @@ const Projects = forwardRef((props, ref) => {
             type="Repository"
             url='Microservices'
             color='#015c5c'
-            langs='Go, API'
+            langs='Go, APIs'
             imgLink='9673/9673387'
             text="Shazam clone using microservices. Employs a RESTful API to identify songs from audio fragments, comparing them with a database and determining the played song from a snippet."
           />

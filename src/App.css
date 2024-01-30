@@ -1,3 +1,7 @@
+:root {
+  color-scheme: dark
+}
+
 .App {
   --primary-dark: #212529;
   --text-light: rgb(250, 250, 250);
@@ -230,7 +234,7 @@
 }
 
 .aboutme-section {
-  min-height: 24rem;
+  min-height: 23rem;
   height: auto !important;
   background-color: var(--background-dark-accent);
 }
@@ -248,7 +252,7 @@
 
 .aboutme-content {
   color: var(--text-light);
-  font-weight: 200;
+  font-weight: 300;
   font-size: 1.1rem;
 }
 

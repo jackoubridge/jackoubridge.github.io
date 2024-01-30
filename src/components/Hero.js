@@ -1,24 +1,17 @@
-import videoFile from '../assets/videoplayback.mp4';
-import posterImg from '../assets/poster.jpg';
 import heroImg from '../assets/mugshot.png'
-import { forwardRef, useRef } from 'react';
+import posterImg from '../assets/poster.jpg';
+import videoFile from '../assets/videoplayback.mp4';
+import { forwardRef } from 'react';
 
 const Hero = forwardRef(({ scrollToProjects }, ref) => {
-
-  const videoRef = useRef();
-  const setPlayback = () => {
-    videoRef.current.playbackRate = 1;
-  }
 
   return (
     <>
       <div className='hero position-relative p-3 container-fluid d-flex justify-content-center'>
 
         <video
-          ref={videoRef}
           className='background-video w-100 h-100'
           id='background-video'
-          onCanPlay={() => setPlayback()}
           poster={posterImg}
           autoPlay loop muted>
           <source src={videoFile} type='video/mp4' />
@@ -26,7 +19,7 @@ const Hero = forwardRef(({ scrollToProjects }, ref) => {
 
         <div className='hero-container rounded my-auto'>
           <div className='hero-img-container d-flex justify-content-center w-100'>
-            <img className='hero-img rounded-circle h-100' src={heroImg} alt="me!"></img>
+            <img className='hero-img rounded-circle h-100' src={heroImg} alt="me!" fetchpriority="high"></img>
           </div>
           <div className='hero-heading-container w-100 pb-4'>
             <span className='hero-heading-primary d-block w-100 text-center'>Jack Oubridge</span>

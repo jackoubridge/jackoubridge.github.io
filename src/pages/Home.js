@@ -28,8 +28,8 @@ const Home = () => {
             <Hero scrollToProjects={scrollToProjects} />
             <div className='content m-0 p-0 w-100 h-auto rounded'>
                 <Projects ref={projectsRef} />
-                <Skills />
                 <AboutMe />
+                <Skills />
                 <Footer />
             </div>
         </div>
