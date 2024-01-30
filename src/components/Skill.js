@@ -11,7 +11,7 @@ const Skill = (props) => {
         <>
             <Fade duration={400}>
                 <div className="skill w-auto rounded d-flex justify-content-between p-1 ps-3 pe-3 m-1">
-                    <span className="d-flex h-100 skill-content"><img className="skill-img h-75 my-auto me-3" src={imgLink} alt={props.title}></img><span className="my-auto skill-title">{props.title}</span></span>
+                    <span className="d-flex h-100 skill-content"><img className="skill-img h-75 my-auto me-3" src={imgLink} alt={props.title}></img><span className="my-auto skill-title" fetchpriority="low">{props.title}</span></span>
                 </div>
             </Fade>
         </>

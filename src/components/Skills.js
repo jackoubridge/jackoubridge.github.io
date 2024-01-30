@@ -34,7 +34,7 @@ const Skills = (props) => {
           <Skill title="Video Editing" imgLink="5243/5243771" />
           <Skill title="Image Editing" imgLink="4623/4623252" />
           <Skill title="Content Creation" imgLink="4520/4520915" />
-          <Skill title="Music Production" imgLink="3039/3039404" />
+          <Skill title="3D Modelling" imgLink="10372/10372009" />
         </div>
       </div>
     </>
