@@ -27,13 +27,13 @@ const Skills = (props) => {
           <Skill title="Security" imgLink="1746/1746650" />
           <Skill title="Hardware" imgLink="1566/1566210" />
           <Skill title="Mathematics" imgLink="3320/3320938" />
-          <Skill title="Problem Solving" imgLink="2896/2896405" />
-          <Skill title="Project Management" imgLink="3286/3286768" />
-          <Skill title="Teamwork" imgLink="2352/2352167" />
-          <Skill title="Designing" imgLink="681/681662" />
-          <Skill title="Video Editing" imgLink="5243/5243771" />
-          <Skill title="Image Editing" imgLink="4623/4623252" />
-          <Skill title="Content Creation" imgLink="4520/4520915" />
+          {/* <Skill title="Problem Solving" imgLink="2896/2896405" /> */}
+          {/* <Skill title="Project Management" imgLink="3286/3286768" /> */}
+          {/* <Skill title="Teamwork" imgLink="2352/2352167" /> */}
+          {/* <Skill title="Designing" imgLink="681/681662" /> */}
+          {/* <Skill title="Video Editing" imgLink="5243/5243771" /> */}
+          {/* <Skill title="Image Editing" imgLink="4623/4623252" /> */}
+          {/* <Skill title="Content Creation" imgLink="4520/4520915" /> */}
           <Skill title="3D Modelling" imgLink="10372/10372009" />
         </div>
       </div>

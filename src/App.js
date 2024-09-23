@@ -1,17 +1,17 @@
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Home from './pages/Home';
-import Resume from './pages/Resume';
+//import Resume from './pages/Resume';
 import './App.css';
 
 const App = () => {
   return (
     <>
-      <HashRouter>
+      <Router>
         <Routes>
-          <Route index element={<Home />} />
-          <Route path='/resume' element={<Resume />} />
+          <Route index element={<Navigate to='/portfolio' />} />
+          <Route path='/portfolio' element={<Home />} />
         </Routes>
-      </HashRouter>
+      </Router>
     </>
   )
 };
