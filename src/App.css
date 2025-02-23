@@ -9,8 +9,6 @@
   --background-dark-primary: rgba(33, 37, 43, 0.25);
   --background-dark-accent: rgba(33, 37, 43, 0.75);
   --background-dark-secondary: #131518;
-
-  background-color: var(--background-light);
 }
 
 .hero {
@@ -42,13 +40,14 @@
 }
 
 .hero-heading-primary {
-  font-size: 2.75rem;
+  /* font-size: 2.75rem; */
+  font-size: 5rem;
   font-weight: 600;
   color: var(--text-light);
 }
 
 .hero-heading-secondary {
-  font-size: 1.4rem;
+  font-size: 1.75rem;
   font-weight: 400;
   color: rgb(210, 210, 210);
   word-wrap: balance !important;
@@ -61,7 +60,7 @@
   justify-content: space-around;
   background-color: transparent;
   width: 9rem;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 400;
   border: solid 0.075rem var(--text-light);
 }
@@ -82,7 +81,8 @@
 
 .projects,
 .skills,
-.aboutme {
+.aboutme,
+.posts {
   background: transparent;
   position: relative;
   display: flex;
@@ -156,7 +156,7 @@
 }
 
 .badge {
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 700;
   background: transparent;
 }
@@ -226,34 +226,7 @@
   background-color: var(--background-dark-primary);
   backdrop-filter: blur(3rem);
   position: relative;
-}
-
-.about-me-row {
-  width: 100%;
-  max-width: 85rem !important;
-}
-
-.aboutme-section {
-  min-height: 23rem;
-  height: auto !important;
-  background-color: var(--background-dark-accent);
-}
-
-.aboutme-img {
-  object-fit: cover;
-}
-
-.aboutme-header {
-  height: 5rem;
-  color: var(--text-light);
-  font-weight: 400;
-  font-size: 2rem;
-}
-
-.aboutme-content {
-  color: var(--text-light);
-  font-weight: 300;
-  font-size: 1.1rem;
+  justify-content: center;
 }
 
 @keyframes parallaxanim {
@@ -270,7 +243,7 @@
   /* larger breakpoint */
 
   .myheader {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   .project {
@@ -300,7 +273,8 @@
     font-size: 2.5rem;
   }
 
-  .projects-row {
+  .projects-row,
+  .posts-row {
     width: 100% !important;
   }
 
