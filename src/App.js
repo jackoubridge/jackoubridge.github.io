@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Home from './pages/Home';
-//import Resume from './pages/Resume';
 import './App.css';
 
 const App = () => {
@@ -8,7 +7,7 @@ const App = () => {
     <>
       <Router>
         <Routes>
-          <Route index element={<Navigate to='/portfolio' />} />
+          <Route index element={<Home />} />
           <Route path='/portfolio' element={<Home />} />
         </Routes>
       </Router>
