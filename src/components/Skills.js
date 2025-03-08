@@ -8,14 +8,15 @@ const Skills = (props) => {
         <div className='row w-auto d-flex m-0 p-0 skills-row justify-content-between'>
           <Header title="Jack of All Trades" />
 
-          <Skill title="Software Development" imgLink="3573/3573187" />
-          <Skill title="Git / Source Control" imgLink="1240/1240970" />
+          <Skill title="Software Development" imgLink="2907/2907497" />
+          <Skill title="Source Control" imgLink="1240/1240970" />
+          <Skill title="Signal Processing" imgLink="11384/11384052" />
           <Skill title="Debugging" imgLink="1541/1541504" />
-          <Skill title="Testing" imgLink="3281/3281188" />
+          <Skill title="Testing" imgLink="1292/1292849" />
           <Skill title="OOP" imgLink="8093/8093354" />
           <Skill title="CLIs" imgLink="10396/10396813" />
           <Skill title="Databases" imgLink="1602/1602309" />
-          <Skill title="Networking" imgLink="900/900334" />
+          <Skill title="Networking" imgLink="10281/10281189" />
           <Skill title="Data Structures" imgLink="4699/4699844" />
           <Skill title="Algorithms" imgLink="1471/1471299" />
           <Skill title="Data Analysis" imgLink="2329/2329087" />
@@ -35,6 +36,7 @@ const Skills = (props) => {
           {/* <Skill title="Image Editing" imgLink="4623/4623252" /> */}
           {/* <Skill title="Content Creation" imgLink="4520/4520915" /> */}
           <Skill title="3D Modelling" imgLink="10372/10372009" />
+          <Skill title="Project Management" imgLink="2352/2352167" />
         </div>
       </div>
     </>
