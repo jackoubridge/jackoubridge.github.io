@@ -7,7 +7,7 @@
   --text-light: rgb(250, 250, 250);
   --background-light: #f0f0f0;
   --background-dark-primary: rgba(33, 37, 43, 0.25);
-  --background-dark-accent: rgba(33, 37, 43, 0.75);
+  --background-dark-accent: rgba(33, 37, 43, 0.5);
   --background-dark-secondary: #131518;
 }
 
@@ -40,7 +40,6 @@
 }
 
 .hero-heading-primary {
-  /* font-size: 2.75rem; */
   font-size: 5rem;
   font-weight: 600;
   color: var(--text-light);
@@ -58,11 +57,11 @@
   height: 3rem;
   display: flex;
   justify-content: space-around;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.1) !important;
   width: 9rem;
   font-size: 1.5rem;
   font-weight: 400;
-  border: solid 0.075rem var(--text-light);
+  border: none;
 }
 
 .hero-button>* {
@@ -74,7 +73,6 @@
 }
 
 .hero-button:hover {
-  border: solid 0.075rem var(--text-light);
   background-color: rgba(255, 255, 255, 0.3) !important;
   transition: all .1s ease-in-out;
 }
@@ -123,8 +121,8 @@
 }
 
 .github-button {
-  background-color: var(--background-light);
-  color: var(--primary-dark);
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: var(--text-light);
   font-size: 1rem;
   height: 2.25rem;
   opacity: 0 !important;
@@ -137,7 +135,8 @@
 }
 
 .github-button:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  color: var(--text-light);
+  background-color: rgba(255, 255, 255, 0.3) !important;
 }
 
 .project-bottom {
@@ -187,6 +186,12 @@
   border-radius: 2rem;
   z-index: 10 !important;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.scroll-button:hover {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  transition: all .1s ease-in-out;
 }
 
 .projects-row {
