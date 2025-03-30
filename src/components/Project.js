@@ -20,7 +20,7 @@ const Project = (props) => {
     <>
       <Fade duration={400}>
         <div className="project d-inline m-0 p-1">
-          <div className='card shadow-sm projectcard w-100 h-100' style={{ backgroundColor: props.color }}>
+          <div className='card shadow-sm projectcard w-100 h-100' style={{ backgroundColor: 'transparent' }}>
             <div className='card-header justify-content-between w-100 ps-3 pe-3 pt-1 pb-1 d-flex align-items-center'>
               {props.title}
               <img src={imgLink} loading="lazy" className='header-img m-0 mt-1 mb-1 p-0' alt=""></img>
