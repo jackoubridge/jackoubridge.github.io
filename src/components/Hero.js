@@ -23,7 +23,7 @@ const Hero = forwardRef(({ scrollToProjects }, ref) => {
           </div> */}
           <div className='hero-heading-container w-100 pb-4'>
             <span className='hero-heading-primary d-block w-100 text-center'>Jack Oubridge</span>
-            <span className='hero-heading-secondary d-block w-100 text-center'>Software Developer. Tech Enthusiast.</span>
+            <span className='hero-heading-secondary d-block w-100 text-center'>Software Engineer. Tech Enthusiast.</span>
           </div>
           <div className='hero-buttons-container d-flex justify-content-center w-100'>
             <a href="https://linkedin.com/in/jackoubridge" target='_blank' rel='noreferrer' className="rounded btn btn-dark me-2 hero-button text-dark d-flex"><span className="my-auto">LinkedIn</span><span className="icon fa-brands fa-linkedin p-0 me-1 my-auto"></span></a>
