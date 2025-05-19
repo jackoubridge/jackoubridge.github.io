@@ -26,7 +26,7 @@ const Projects = forwardRef((props, ref) => {
             color='Crimson'
             langs="OpenGL, GLSL, Python"
             imgLink='9417/9417368'
-            text='A visually immersive jungle scene created with PyOpenGL. This project includes local illumination, shadow mapping, texture mapping, and OBJ file loading for a captivating virtual experience.'
+            text='A jungle scene created with PyOpenGL. This project includes local illumination, shadow mapping, texture mapping, and OBJ file loading.'
           />
           <Project
             title='Microservices'
@@ -53,7 +53,7 @@ const Projects = forwardRef((props, ref) => {
             color='MidnightBlue'
             langs='Flask, SQL, Python'
             imgLink='1336/1336494'
-            text="Using SQLAlchemy and Socket.IO, this full-stack Flask app supports a database of users (via Steam login) and real-time simulation gambling. This was my first endeavour into the world of ReactJS and Bootstrap."
+            text="Using SQLAlchemy and Socket.IO, this full-stack Flask app supports a database of users and real-time events. My first endeavour into ReactJS and Bootstrap."
           />
           <Project
             title='Game Development'

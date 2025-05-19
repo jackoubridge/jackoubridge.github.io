@@ -82,7 +82,7 @@
 .skills,
 .aboutme,
 .posts {
-  background: transparent;
+  background-color: rgba(0, 0, 0, 0.3);
   position: relative;
   display: flex;
   justify-content: center;
@@ -164,7 +164,7 @@
 }
 
 .myfooter {
-  background: transparent;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .myfooter>*,
