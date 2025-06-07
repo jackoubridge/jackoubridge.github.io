@@ -9,6 +9,7 @@
   --background-dark-primary: rgba(33, 37, 43, 0.25);
   --background-dark-accent: rgba(33, 37, 43, 0.5);
   --background-dark-secondary: #131518;
+  --yellow: #fffa62;
 }
 
 .hero {
@@ -26,7 +27,7 @@
   top: 0;
   left: 0;
   object-fit: cover;
-  filter: brightness(0.4);
+  filter: brightness(0.7);
 }
 
 .hero-img-container {
@@ -57,12 +58,13 @@
   height: 3rem;
   display: flex;
   justify-content: space-around;
-  background-color: rgba(255, 255, 255, 0.1) !important;
+  background-color: var(--background-dark-secondary) !important;
   width: 9rem;
   font-size: 1.5rem;
   font-weight: 400;
   border: 0.05rem solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(3rem);
+  border: 0.1rem solid var(--primary-dark);
 }
 
 .hero-button>* {
@@ -93,7 +95,8 @@
   border: 0.05rem solid rgba(255, 255, 255, 0.5);
   transition: all .1s ease-in-out;
   color: var(--text-light);
-  background-color: var(--background-dark-accent) !important;
+  /* background-color: var(--background-dark-accent) !important; */
+  background-color: var(--primary-dark) !important;
 }
 
 .myheader {
@@ -115,6 +118,7 @@
   padding: 1rem;
   flex-direction: column;
   backdrop-filter: blur(0.0rem) !important;
+  background-color: var(--background-dark-secondary) !important;
 }
 
 .icon {
