@@ -9,13 +9,13 @@ const Hero = forwardRef(({ scrollToProjects }, ref) => {
     <>
       <div className='hero position-relative p-3 container-fluid d-flex justify-content-center'>
 
-        <video
+        {/* <video
           className='background-video w-100 h-100'
           id='background-video'
           poster={posterImg}
           autoPlay loop muted>
           <source src={videoFile} type='video/mp4' />
-        </video>
+        </video> */}
 
         <div className='hero-container rounded my-auto'>
           {/* <div className='hero-img-container d-flex justify-content-center w-100'>
