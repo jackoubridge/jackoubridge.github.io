@@ -4,7 +4,8 @@
 
 body {
   z-index: 0 !important;
-  background-color: #21252b;
+  /* background-color: #21252b; */
+  background-color: #1a1c20;
   margin: 0;
   /* font-family: 'Roboto Slab', serif; */
   /* font-family: 'Poppins'; */

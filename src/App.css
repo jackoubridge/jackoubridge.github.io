@@ -18,7 +18,7 @@
 }
 
 .rounded {
-  border-radius: 1rem !important;
+  border-radius: 0.5rem !important;
 }
 
 .background-video {
@@ -61,7 +61,7 @@
   width: 9rem;
   font-size: 1.5rem;
   font-weight: 400;
-  border: none;
+  border: 0.05rem solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(3rem);
 }
 
@@ -90,7 +90,7 @@
 }
 
 .projectcard {
-  border: none;
+  border: 0.05rem solid rgba(255, 255, 255, 0.5);
   transition: all .1s ease-in-out;
   color: var(--text-light);
   background-color: var(--background-dark-accent) !important;
