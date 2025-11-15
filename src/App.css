@@ -3,13 +3,9 @@
 }
 
 .App {
-  --primary-dark: #212529;
-  --text-light: rgb(250, 250, 250);
-  --background-light: #f0f0f0;
-  --background-dark-primary: rgba(33, 37, 43, 0.25);
-  --background-dark-accent: rgba(33, 37, 43, 0.5);
-  --background-dark-secondary: #131518;
-  --yellow: #fffa62;
+  --primary-dark: #B9BBAD;
+  --text-light: #F4F4ED;
+  --backgorund-dark-primary: #111112;
 }
 
 .hero {
@@ -49,7 +45,7 @@
 .hero-heading-secondary {
   font-size: 1.75rem;
   font-weight: 400;
-  color: rgb(210, 210, 210);
+  color: #B9BBAD;
   word-wrap: balance !important;
 }
 
@@ -69,6 +65,7 @@
 
 .hero-button>* {
   color: var(--text-light);
+  transition: all .1s ease-in-out;
 }
 
 .icon {
@@ -76,8 +73,12 @@
 }
 
 .hero-button:hover {
-  background-color: rgba(255, 255, 255, 0.3) !important;
+  background-color: var(--primary-dark) !important;
   transition: all .1s ease-in-out;
+}
+
+.hero-button:hover>* {
+  color: var(--backgorund-dark-primary);
 }
 
 .projects,
@@ -92,11 +93,12 @@
 }
 
 .projectcard {
-  border: 0.1rem solid rgba(255, 255, 255, 0.5);
+  /* border: 0.1rem solid rgba(255, 255, 255, 0.5); */
+  border: 0.1rem solid;
+  border-color: (var(--primary-dark));
   transition: all .1s ease-in-out;
-  color: var(--text-light);
-  /* background-color: var(--background-dark-accent) !important; */
-  background-color: var(--primary-dark) !important;
+  color: var(--text-light) !important;
+  background-color: var(--backgorund-dark-primary) !important;
 }
 
 .myheader {
@@ -111,7 +113,8 @@
   border: none;
   font-weight: 500;
   word-wrap: balance;
-  border-bottom: 0.05rem solid rgba(255, 255, 255, 0.5);
+  border-bottom: 0.1rem solid;
+  border-color: var(--primary-dark);
 }
 
 .card-body {
@@ -127,13 +130,13 @@
 }
 
 .github-button {
-  background-color: rgba(255, 255, 255, 0.1) !important;
+  background-color: transparent;
   color: var(--text-light);
   font-size: 1rem;
   height: 2.25rem;
   opacity: 0 !important;
   transition: all .1s ease-in-out;
-  backdrop-filter: blur(3rem) !important;
+  border: 0.1rem solid var(--primary-dark);
 }
 
 .projectcard:hover .github-button {
@@ -143,11 +146,14 @@
 
 .github-button:hover {
   color: var(--text-light);
-  background-color: rgba(255, 255, 255, 0.3) !important;
+  background-color: var(--primary-dark);
+  color: var(--backgorund-dark-primary);
 }
 
 .project-bottom {
   min-height: 2.75rem;
+  border-top: 0.1rem solid;
+  border-color: var(--primary-dark);
 }
 
 .project-info {
@@ -193,11 +199,12 @@
   border-radius: 2rem;
   z-index: 10 !important;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.1) !important;
+  text-align: center !important;
 }
 
 .scroll-button:hover {
-  background-color: rgba(255, 255, 255, 0.3) !important;
+  background-color: var(--primary-dark);
+  color: var(--backgorund-dark-primary);
   transition: all .1s ease-in-out;
 }
 
@@ -259,13 +266,14 @@
 
   .project {
     width: 29rem !important;
-    min-height: 15.5rem;
+    min-height: 18rem;
   }
 
   .scroll-button {
     bottom: 5rem;
+    height: 4.5rem;
+    width: 4.5rem;
     font-size: 3.5rem;
-    backdrop-filter: blur(3rem);
   }
 
   .hero-container {
@@ -296,6 +304,8 @@
   }
 
   .scroll-button {
+    height: 4.5rem;
+    width: 4.5rem;
     bottom: 5rem;
     font-size: 3.5rem;
   }

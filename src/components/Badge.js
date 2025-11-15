@@ -1,7 +1,7 @@
 const Badge = (props) => {
   return (
     <>
-      <span className="badge border user-select-none border-light me-1 my-1 p-1">
+      <span className="badge user-select-none p-1 pa-3 pe-3 d-flex align-items-center">
         {props.lang}
       </span>
     </>
