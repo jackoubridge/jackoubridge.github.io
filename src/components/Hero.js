@@ -1,6 +1,6 @@
 // import heroImg from '../assets/mugshot.png'
-import posterImg from '../assets/poster.jpg';
-import videoFile from '../assets/videoplayback.mp4';
+// import posterImg from '../assets/poster.jpg';
+// import videoFile from '../assets/videoplayback.mp4';
 import { forwardRef } from 'react';
 
 const Hero = forwardRef(({ scrollToProjects }, ref) => {
@@ -32,7 +32,7 @@ const Hero = forwardRef(({ scrollToProjects }, ref) => {
 
         </div>
 
-        <span onClick={scrollToProjects} className="user-select-none position-absolute scroll-button material-symbols-outlined">expand_circle_down</span>
+        <span onClick={scrollToProjects} className="user-select-none position-absolute scroll-button material-symbols-outlined p-0 m-0 d-flex align-items-center justify-content-center">expand_circle_down</span>
       </div>
     </>
   )

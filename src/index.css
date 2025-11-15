@@ -4,11 +4,8 @@
 
 body {
   z-index: 0 !important;
-  /* background-color: #21252b; */
-  background-color: #1a1c20;
+  background-color: #111112;
   margin: 0;
-  /* font-family: 'Roboto Slab', serif; */
-  /* font-family: 'Poppins'; */
   font-family: "SUSE", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
