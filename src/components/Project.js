@@ -25,7 +25,7 @@ const Project = (props) => {
               {props.title}
               <img src={imgLink} loading="lazy" className='header-img m-0 mt-1 mb-1 p-0' alt=""></img>
             </div>
-            <div className='card-body pb-0 w-100 d-flex'>
+            <div className='card-body pb-0 w-100 d-flex rounded'>
               <span className='project-info d-flex w-100 p-0 pb-2'>
                 {props.text}
               </span>
