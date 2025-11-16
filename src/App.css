@@ -369,4 +369,12 @@
   .footer-text {
     font-size: 0.9rem !important;
   }
+
+  .hero-heading-primary {
+    font-size: 12vw;
+  }
+
+  .hero-heading-secondary {
+    font-size: 5.3vw;
+  }
 }
