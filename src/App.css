@@ -37,13 +37,13 @@
 }
 
 .hero-heading-primary {
-  font-size: 5rem;
+  /* font-size: 5rem; */
   font-weight: 600;
   color: var(--text-light);
 }
 
 .hero-heading-secondary {
-  font-size: 1.75rem;
+  /* font-size: 1.75rem; */
   font-weight: 400;
   color: #B9BBAD;
   word-wrap: balance !important;
@@ -263,6 +263,14 @@
     font-size: 3.5rem;
   }
 
+  .hero-heading-primary {
+    font-size: 5rem;
+  }
+
+  .hero-heading-secondary {
+    font-size: 1.75rem;
+  }
+
   .project {
     width: 29rem !important;
     min-height: 18rem;
@@ -286,6 +294,14 @@
   .projectcard {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .hero-heading-primary {
+    font-size: 3.5rem;
+  } 
+
+  .hero-heading-secondary {
+    font-size: 1.5rem;
   }
 
   .myheader {
