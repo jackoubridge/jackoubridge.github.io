@@ -1,6 +1,4 @@
 import heroImg from '../assets/mugshot.png'
-// import posterImg from '../assets/poster.jpg';
-// import videoFile from '../assets/videoplayback.mp4';
 import { forwardRef } from 'react';
 
 const Hero = forwardRef(({ scrollToProjects }, ref) => {
@@ -8,14 +6,6 @@ const Hero = forwardRef(({ scrollToProjects }, ref) => {
   return (
     <>
       <div className='hero position-relative p-3 container-fluid d-flex justify-content-center'>
-
-        {/* <video
-          className='background-video w-100 h-100'
-          id='background-video'
-          poster={posterImg}
-          autoPlay loop muted>
-          <source src={videoFile} type='video/mp4' />
-        </video> */}
 
         <div className='hero-container rounded my-auto'>
           <div className='hero-img-container d-flex justify-content-center w-100'>
