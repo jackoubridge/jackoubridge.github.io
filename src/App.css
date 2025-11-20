@@ -37,13 +37,11 @@
 }
 
 .hero-heading-primary {
-  /* font-size: 5rem; */
   font-weight: 600;
   color: var(--text-light);
 }
 
 .hero-heading-secondary {
-  /* font-size: 1.75rem; */
   font-weight: 400;
   color: #B9BBAD;
   word-wrap: balance !important;
@@ -80,10 +78,7 @@
   color: var(--backgorund-dark-primary);
 }
 
-.projects,
-.skills,
-.aboutme,
-.posts {
+.projects {
   background-color: rgba(0, 0, 0, 0.3);
   position: relative;
   display: flex;
@@ -92,7 +87,6 @@
 }
 
 .projectcard {
-  /* border: 0.1rem solid rgba(255, 255, 255, 0.5); */
   border: 0.1rem solid;
   border-color: (var(--primary-dark));
   transition: all .1s ease-in-out;
@@ -183,7 +177,7 @@
 
 .header-img {
   filter: invert(1);
-  height: 3.2rem !important;
+  height: 3rem !important;
   margin-left: 0.5rem !important;
 }
 
@@ -219,25 +213,6 @@
   animation: parallaxanim linear;
   animation-timeline: scroll() !important;
   transform: translateY(0rem);
-}
-
-.skill {
-  height: 4rem;
-  font-weight: 500;
-  background-color: var(--background-dark-accent);
-  color: var(--text-light);
-}
-
-.skill-title {
-  font-size: 1.2rem;
-}
-
-.skill-img {
-  filter: invert(1);
-}
-
-.skills-row {
-  width: 72rem !important;
 }
 
 .content {
@@ -298,7 +273,7 @@
 
   .hero-heading-primary {
     font-size: 3.5rem;
-  } 
+  }
 
   .hero-heading-secondary {
     font-size: 1.5rem;
@@ -306,11 +281,6 @@
 
   .myheader {
     font-size: 2.5rem;
-  }
-
-  .projects-row,
-  .posts-row {
-    width: 100% !important;
   }
 
   .project {
@@ -325,33 +295,11 @@
     font-size: 3.5rem;
   }
 
-  .skills-row {
-    justify-content: center !important;
-  }
-
   .hero-container {
     padding-top: 1.5rem !important;
     padding-bottom: 1.5rem !important;
     padding-left: 0.2rem !important;
     padding-right: 0.2rem !important;
-  }
-
-  .skill {
-    width: 30% !important;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  /* special breakpoint */
-
-  .skill {
-    width: 100% !important;
-  }
-
-  .skill-content,
-  .skill-title {
-    text-align: center !important;
-    width: 100% !important;
   }
 }
 
