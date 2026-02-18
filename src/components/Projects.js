@@ -9,7 +9,7 @@ const Projects = forwardRef((props, ref) => {
       <div className='projects p-3 container-fluid' ref={ref}>
 
         <div className='row w-auto d-flex m-0 p-0 projects-row'>
-          <Header title="My Projects" />
+          <Header title="Personal Projects" />
           <Project
             title='Jiggz.net'
             type='Site'
