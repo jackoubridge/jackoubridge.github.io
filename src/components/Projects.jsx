@@ -11,15 +11,6 @@ const Projects = forwardRef((props, ref) => {
         <div className='row w-auto d-flex m-0 p-0 projects-row'>
           <Header title="Personal Projects" />
           <Project
-            title='Jiggz.net'
-            type='Site'
-            url='https://jiggz.net'
-            color='#3234a8'
-            langs="JavaScript, Node.js, Cloud Computing"
-            imgLink='1925/1925065'
-            text="A system of services that come together to form Jiggz.net. Includes a Minecraft server hosted by Google Cloud and a supporting Node.js app that fetches the server's live telemetry."
-          />
-          <Project
             title='3D Graphics Engine'
             type="Repository"
             url='PyOpenGL'
@@ -47,15 +38,6 @@ const Projects = forwardRef((props, ref) => {
             text="DIY web server that allows clients on the local network to communicate wirelessly with the Wi-Fi module and change the colour of an LED. Firmware written in Arduino IDE, hardware secured with elastic bands."
           />
           <Project
-            title='Full-Stack Web App'
-            type="Repository"
-            url='Flask-App'
-            color='MidnightBlue'
-            langs='Flask, SQL, Python'
-            imgLink='1336/1336494'
-            text="Using SQLAlchemy and Socket.IO, this full-stack Flask app supports a database of users and real-time events. My first endeavour into ReactJS and Bootstrap."
-          />
-          <Project
             title='Game Development'
             type="Repository"
             url='unity-project'
@@ -72,15 +54,6 @@ const Projects = forwardRef((props, ref) => {
             langs='Python, AI'
             imgLink='2103/2103620'
             text="A nature-inspired application that tackles the Travelling Salesman problem. Using pheromones, randomness and a thousand iterations, the power of the colony finds the best fitness."
-          />
-          <Project
-            title="Evolutionary Algorithm"
-            type="Repository"
-            url='Sudoku-EA'
-            color='#6f52ab'
-            langs='Python, AI'
-            imgLink='11918/11918995'
-            text="This implementation of a famous problem-solving method uses genetic mutation and crossover to find the best Sudoku board given a random starting population."
           />
           <Project
             title='Portfolio React App'
